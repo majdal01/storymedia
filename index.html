@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
     <title>Forside</title>
 </head>
 <body>
@@ -13,48 +14,58 @@
     
     <footer>
         <hr class="seperator">
-            <div>
-                <h3>Navigation</h3>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Forside</a></li>
-                        <li><a href="ydelser.html">Ydelser</a></li>
-                        <li><a href="branding-proces.html">Branding proces</a></li>
-                        <li><a href="storytelling.html">Storytelling</a></li>
-                        <li><a href="om-story-media.html">Om Story Media</a></li>
-                        <li><a href="kontakt.html">Kontakt</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                    </ul>
-                </nav>
-                <div>
-                    <p>Søg</p>
-                    <div class="linje"></div>
-                    <img src="img/søg ikon.png" alt="lup">
+            <div class="footergrid">
+                <div class="footernav">
+                    <nav>
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Forside</a></li>
+                            <li><a href="ydelser.html">Ydelser</a></li>
+                            <li><a href="branding-proces.html">Branding proces</a></li>
+                            <li><a href="storytelling.html">Storytelling</a></li>
+                            <li><a href="om-story-media.html">Om Story Media</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </nav>
+                    <div>
+                        <img class="sogikon" src="img/søg ikon.png" alt="lup">
+                        <p>Søg</p>
+                        <div class="linje"></div>
+                    </div>
+                </div>
+
+                <a class="footerlogoplacering" href="index.html"><img class="footerlogo" src="img/Logo - ikon ovenpå tekst.png" alt="story media logo"></a>
+
+                <div class="footerform">
+                    <div class="nyhedsbrev">
+                        <h3>Tilmeld nyhedsbrev</h3>
+                        <form>
+                            <label class="visually-hidden" for="mail"></label>
+                            <input id="mail" type="email" placeholder="E-mail">
+                        
+                            <input type="submit" name="submit" value="Tilmeld">
+                        </form>
+                    </div>
+                    <div>
+                        
+                        <div class="someplacering">
+                            <a  href="#"><img class="someikon" src="img/instagram ikon.png" alt="Instagram ikon"></a>
+                            <a  href="#"><img class="someikon" src="img/linkedin ikon.png" alt="LinkedIn ikon"></a>
+                            <a  href="#"><img class="someikon" src="img/facebook ikon.png" alt="Facebook ikon"></a>
+                        </div>
+
+                        <a href="mailto:info@storymedia.com">info@storymedia.com</a>
+                        <img class="mailikon" src="img/mail ikon.png" alt="mailikon">
+                        
+                        <a href="tel:+4599999999">+45 99 99 99 99</a>
+                        <img class="telefonikon" src="img/telefon ikon.png" alt="telefon ikon">
+                    
+                    </div>
                 </div>
             </div>
-
-            <img src="img/Logo - ikon ovenpå tekst.png" alt="story media logo">
-
-            <div>
-                <h3>Tilmeld nyhedsbrev</h3>
-                <form>
-                    <label class="visually-hidden" for="mail">E-mail</label>
-                    <input id="mail" type="email" placeholder="E-mail">
-                    
-                    <input type="submit" name="submit" value="Tilmeld">
-                </form>
-                
-                <a href="#"><img src="img/instagram ikon.png" alt="Instagram ikon"></a>
-                <a href="#"><img src="img/linkedin ikon.png" alt="LinkedIn ikon"></a>
-                <a href="#"><img src="img/facebook ikon.png" alt="Facebook ikon"></a>
-
-                <a href="mailto:info@storymedia.com">info@storymedia.com<img src="img/mail ikon.png" alt="mailikon"></a>
-                <a href="tel:+4599999999">+45 99 99 99 99<img src="img/telefon ikon.png" alt="telefon ikon"></a>
-
-            </div>
-
         <hr class="seperator">
-        <p>Copyright &copy; 2023 Story Media. All rights reserved.</p>
+        <p class="copy">Copyright &copy; 2023 Story Media. All rights reserved.</p>
     </footer>
 </body>
 </html>

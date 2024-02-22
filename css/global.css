@@ -1,0 +1,170 @@
+
+
+/*generel styling til Header og Footer */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: "roboto", sans-serif;
+    color: #37476C;
+}
+
+h3{
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    color: #37476C;
+    line-height: 30px;
+}
+
+/*Header*/
+
+
+/*Footer*/
+.seperator{
+    border: black solid 1 px;
+}
+
+/*justering af ikon størrelser*/
+.someikon{
+    height: 40px;
+    width: 40px;
+}
+
+.telefonikon{
+    height: 16px;
+    width: 16px;
+}
+
+.mailikon{
+    height: 12px;
+    width: 18px;
+}
+
+.sogikon{
+    height: 18px;
+    width: 18px;
+}
+
+.linje{
+    border: 0.5px solid #37476C;
+    margin-bottom: 40px;
+}
+
+/*grid til inddeling af 3 kolloner*/
+
+.footergrid{
+    display: grid;
+    grid-template-columns: 100px 180px 1fr 200px 100px;
+    width: 100%;
+    height: 420px;
+    background-color: #EFEAE1;
+}
+
+
+/*Navigation*/
+.footernav {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #37476C;
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer a:hover{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sogikon{
+    float: right;
+}
+
+
+/*Logo*/
+
+.footerlogo {
+    width: 215px;
+}
+
+.footerlogoplacering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Nyhedsbrev*/
+.footerform {
+    display: flex;
+    flex-direction: column;
+    grid-column: 4/5;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer input[type=submit]{
+    background-color: #D47B28;
+    width: 116px;
+    height: 32px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: black;
+    font-weight: bolder;
+    font-family: "roboto", sans-serif;
+}
+
+footer input[type=submit]:hover{
+    background-color: #EFEAE1;
+    border: 3px solid #D47B28;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+footer input[type=email]{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius:5px;
+    height: 40px;
+    width: 200px;
+    font-family: "roboto", sans-serif;
+    padding-left: 5px;
+}
+
+/*SoMe ikoner*/
+
+.someplacering {
+    display: flex;
+    gap: 8px;
+}
+
+/*kontakt ikon*/
+.telefonikon{
+   float: right;
+}
+
+/*copyright*/
+.copy{
+    background-color: #EFEAE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
