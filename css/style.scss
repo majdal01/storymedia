@@ -9,7 +9,57 @@
 
 /*Branding proces*/
 
+/*Branding - hero område */
 
-a{
+.branding-main{
+    background-image: url('../img/BGtop.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+ }
+
+.hero-container{
+    display: flex;
+    width: 100%;
+    margin: 0 100px;
+    padding-top: 174px;
+}
+
+.branding-hero p{
+    width: 404px;
+}
+
+.branding-hero h1{
+    padding-bottom: 80px;
+}
+
+.branding-hero-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.branding-hero-img img{
+    max-width: 60%;
+    height: auto;
+}
+
+.hero-gap-til-knap{
+    padding-bottom: 80px
+}
+ 
+.branding-hero a{
     @include partial.btn;
  }
+
+ /* Chevron */
+
+ .chevron-container{
+    text-align: center;
+ }
+
+ .chevron{
+   padding: 100px;
+   
+ }
+
