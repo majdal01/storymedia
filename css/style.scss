@@ -25,21 +25,21 @@
     padding-top: 174px;
 }
 
-.branding-hero p{
+.hero-tekst p{
     width: 404px;
 }
 
-.branding-hero h1{
+.hero-tekst h1{
     padding-bottom: 80px;
 }
 
-.branding-hero-img{
+.hero-img{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.branding-hero-img img{
+.hero-img img{
     max-width: 60%;
     height: auto;
 }
@@ -48,7 +48,7 @@
     padding-bottom: 80px
 }
  
-.branding-hero a{
+.hero-tekst a{
     @include partial.btn;
  }
 
@@ -60,6 +60,5 @@
 
  .chevron{
    padding: 100px;
-   
  }
 
