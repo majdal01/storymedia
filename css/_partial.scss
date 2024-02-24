@@ -16,6 +16,12 @@ $font: "roboto", sans-serif;
     text-align: center;
     width: 365px;
     height: 50px;
+    color: black;
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 @mixin website-box{
