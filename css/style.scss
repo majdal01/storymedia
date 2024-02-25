@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    width: 100%;
  }
 
 .hero-container{
@@ -55,32 +56,107 @@
  }
 
  .chevron{
-   padding: 100px;
+   padding: 150px;
  }
 
 /* Branding hovedområde */
 
-.branding-container{
+.branding-container-venstre{
     display: grid;
-    grid-template-columns: 1fr 1fr 175px;
-    min-height: 473px;
+    width: 75%;
+    grid-template-columns: 63% 37%;
+    grid-template-rows:  463px;
     border: 5px solid rgba(55, 71, 108, 0.6);
-    border-left: none;
-    margin-right: 174px;
     border-radius: 0 50px 50px 0;
+    border-left: none;
+    margin-bottom: 145px;
 }
 
-.branding-tekst-bokse{
-    grid-column: 1 / 2;
+.branding-container-hojre{
+    display: grid;
+    width: 75%;
+    grid-template-columns: 37% 63%;
+    grid-template-rows: 463px;
+    justify-content: end;
+    margin-left: auto;
+    border: 5px solid rgba(55, 71, 108, 0.6);
+    border-right: none;
+    border-radius: 50px 0 0 50px;
+    margin-bottom: 145px;
+}
+
+.branding-tekst-bokse-venstre{
+    grid-area: 1 / /1 / 2  2;
+    background-color: rgba(239, 234, 225, 0.6);
     padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.branding-img-bokse{
-    grid-column: 2 / 3;
+.branding-tekst-bokse-hojre{
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: rgba(239, 234, 225, 0.6);
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.branding-kasseimg{
-    aspect-ratio: 1/1;
-    object-fit: contain;
-    width: 472px;
+.branding-img-bokse-venstre{
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    align-content: center;
+}
+
+.branding-img-bokse-hojre{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    align-content: center;
+}
+
+.branding-kasseimg-venstre{
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 0 45px 45px 0;
+}
+
+.branding-kasseimg-hojre{
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 45px 0 0 45px;
+}
+
+/*Road to succes*/
+
+.roadtosucces{
+    text-align: center;
+}
+
+/*pil op*/
+
+.pilop{
+    display: flex;
+    justify-content: right;
+    padding: 100px 20px 20px 0;
+}
+
+.pilopimg{
+    width: 35px;
+}
+
+/*Kontaktknap*/
+
+.knap-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.kontakt{
+    @include partial.btn;
 }
