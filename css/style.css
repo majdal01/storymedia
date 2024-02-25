@@ -234,4 +234,47 @@
   border: 1px solid black;
   padding: 5px 20px;
   border-radius: 50px;
+}
+
+/* Tekst til hjemmeside */
+.hjemmesidetekst {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 200px 150px 200px;
+}
+
+.orangebaggrundydelser {
+  background-color: #d47b28;
+  width: 100%;
+  height: 62.2vh;
+  position: absolute;
+  z-index: 1;
+}
+
+.hjemmesidekasse-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1%;
+  padding: 0 1%;
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+  margin-bottom: 160px;
+}
+
+.hjemmesidekasse {
+  background-color: #efeae1;
+  height: 900px;
+  padding: 5%;
+}
+
+.linjeydelser {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 9px;
+  border-radius: 50px;
+  width: 100%;
+  margin: 50px 0;
 }/*# sourceMappingURL=style.css.map */
