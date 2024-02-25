@@ -262,3 +262,23 @@
     width: 100%;
     margin: 50px 0;
  }
+
+ /*Seperatorlinje*/
+
+ .seperatorbeige{
+    background-color: partial.$primary-color;
+    height: 7px;
+    border: none;
+ }
+
+ /*Den specifikke*/
+
+ .specifikke{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 100px;
+ }
+
+ .specifiktekst{
+    padding-right: 50px;
+ }
