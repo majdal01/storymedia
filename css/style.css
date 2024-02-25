@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-/*Branding proces*/
+/*Styling af Branding proces*/
 /*Branding - hero område */
 .branding-main {
   background-image: url("../img/Brandingbaggrund.png");
@@ -181,7 +181,7 @@
   text-transform: uppercase;
 }
 
-/* Ydelser */
+/* Styling af Ydelser */
 .ydelser-main {
   background-image: url("../img/TopBG.png");
   background-size: contain;
@@ -244,6 +244,7 @@
   padding: 0 200px 150px 200px;
 }
 
+/*Hjemmesidekasser*/
 .orangebaggrundydelser {
   background-color: #d47b28;
   width: 100%;
@@ -295,4 +296,41 @@
 
 .specifiktekst {
   padding-right: 50px;
+}
+
+/*Styling af Storytelling*/
+.storytelling-main {
+  background-image: url("../img/TopBG.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* Story tekst billede */
+.storytekstbillede {
+  display: flex;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.storytekst {
+  padding: 50px 100px;
+}
+
+.beigekasse {
+  background-color: #efeae1;
+  width: 70%;
+  position: relative;
+  right: 0;
+}
+
+.beigeborder {
+  border: 7px solid #efeae1;
+  border-right: none;
+  border-left: none;
+}
+
+.nysgerrigstory {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
