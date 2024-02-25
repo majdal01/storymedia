@@ -190,4 +190,48 @@
   width: 100%;
 }
 
-/*Hovedindhold*//*# sourceMappingURL=style.css.map */
+/*Hovedindhold*/
+.stark-container {
+  display: flex;
+  margin: auto 100px;
+  gap: 100px;
+}
+
+/*Visuelle pakker*/
+.vispakker-container {
+  display: flex;
+  margin-top: 135px;
+  margin-bottom: 200px;
+}
+
+.vis-et {
+  background-color: #efeae1;
+  width: 50%;
+  padding: 70px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vis-to {
+  border: 7px solid #efeae1;
+  border-right: none;
+  width: 50%;
+  padding: 70px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kontakt-visuel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-top: 50px;
+}
+
+.kontaktvisuel {
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
