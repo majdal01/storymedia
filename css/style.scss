@@ -369,4 +369,57 @@ p{
     height: 100%;
 }
 
-ko
+.kontaktinfo{
+    display: grid;
+    grid-template-columns: 100px, 1fr, 1fr, 100px;
+}
+
+.kontaktimg{
+    grid-column: 3/4;
+}
+
+.kontaktform{
+    display: grid;
+    grid-template-columns: 100px, 1fr, 1fr, 100px;
+}
+
+/*kontaktformular*/
+.kontaktformular{
+    height: 875px;
+    width: 630px;
+    background-color: #EFEAE1;
+    border-radius: 20px, 0, 20px, 0;
+    font-family: partial.$font;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: partial.$text-color;
+    letter-spacing: 5%;
+}
+
+input[type=navn], input[type=email], input[type=tel], select, textarea {
+	width: 100%;
+	padding: 1em;
+	border: 1px solid partial.$secondary-color;
+	border-radius: 4px;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 1em;
+	border: 1px solid partial.$secondary-color;
+	border-radius: 4px;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+input[type=submit]{
+	background-color: #DD7824;
+	color: #fff;
+	padding: 0.8em 1.5em;
+	border: none;
+	border-radius: 4px;
+	width: 100%;
+	font-size: 18px;
+}
