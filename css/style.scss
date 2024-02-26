@@ -14,6 +14,7 @@ h1, h2{
     text-transform: uppercase;
     color: partial.$text-color;
     letter-spacing: 5%;
+    padding-bottom: 20px;
 }
 
 h3{
@@ -37,7 +38,7 @@ p{
     font-size: 22px;
     color: partial.$text-color;
     letter-spacing: 5%;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
 }
 
 
@@ -56,7 +57,7 @@ p{
 .hero-container{
     display: flex;
     width: 100%;
-    
+    padding: 200px 100px 0 100px;
 } 
 
 .hero-tekst h1{
