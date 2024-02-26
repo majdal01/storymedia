@@ -377,8 +377,13 @@ p {
 }
 
 .kontaktinfo {
+  margin-top: 150px;
   display: grid;
   grid-template-columns: 100px, 1fr, 1fr, 100px;
+}
+
+.kontakter {
+  grid-column: 2/3;
 }
 
 .kontaktimg {
@@ -387,7 +392,15 @@ p {
 
 .kontaktform {
   display: grid;
-  grid-template-columns: 100px, 1fr, 1fr, 100px;
+  grid-template-columns: 200px, 1fr, 1fr, 200px;
+}
+
+.kontaktinformation {
+  grid-column: 2/3;
+}
+
+.kontaktformular {
+  grid-column: 3/4;
 }
 
 /*kontaktformular*/
@@ -395,7 +408,7 @@ p {
   height: 875px;
   width: 630px;
   background-color: #EFEAE1;
-  border-radius: 20px, 0, 20px, 0;
+  border-radius: 20px 0 0 20px;
   font-family: "roboto", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
@@ -403,7 +416,7 @@ p {
   letter-spacing: 5%;
 }
 
-input[type=navn], input[type=email], input[type=tel], select, textarea {
+main input[type=navn], input[type=email], input[type=tel], select, textarea {
   width: 100%;
   padding: 1em;
   border: 1px solid #d47b28;
@@ -412,7 +425,7 @@ input[type=navn], input[type=email], input[type=tel], select, textarea {
   margin-bottom: 1em;
 }
 
-input[type=text], select, textarea {
+main input[type=text], select, textarea {
   width: 100%;
   padding: 1em;
   border: 1px solid #d47b28;
@@ -421,7 +434,7 @@ input[type=text], select, textarea {
   margin-bottom: 1em;
 }
 
-input[type=submit] {
+main input[type=submit] {
   background-color: #DD7824;
   color: #fff;
   padding: 0.8em 1.5em;
