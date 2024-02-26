@@ -405,7 +405,7 @@ p{
     text-align: center;
 }
 
-/*Styling af Kontakt side*/
+/*Styling af Kontakt siden*/
 .BGtop{
     background-image: url("../img/BGtop.png");
     background-size: contain;
@@ -414,48 +414,59 @@ p{
     height: 100%;
 }
 
-.kontaktinfo{
-    margin-top: 15em;
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    margin-bottom: 10px;
+.kontakt-hero-container{
+    display: flex;
+    width: 100%;
+    padding: 150px 100px 0 100px;
 }
 
-.kontakter{
-    grid-column: 1/2;
+.kontakt-hero-tekst h1{
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
-.kontaktimg{
-    grid-column: 2/3;
-
+.kontakt-hero-tekst a{
+    text-decoration: none;
+    color: partial.$text-color;
 }
 
-.chevron{
-    align-items: center;
+.kontakt-hero-img{
+    width: 100%;
+    display: flex;
+    justify-content: right;
 }
 
-.charfunktion{
+.kontakt-hero-img img{
+    object-fit: contain;
+}
+
+.chatfunktion{
+    padding: 20px;
     position: fixed;
+    top: 90%;
+    left: 93%;
 }
 
 .kontaktform{
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 150px 0 0 100px;
 }
 
 .kontaktinformation{
-    grid-column: 1/2;
-}
-
-.kontaktformular{
-    grid-column: 2/3;
+    width: 45%;
+    padding-top: 100px;
+        h1{
+            padding-bottom: 80px;
+        }
 }
 
 /*kontaktformular*/
 .kontaktformular{
     height: 875px;
     width: 630px;
-    background-color: #EFEAE1;
+    background-color: partial.$primary-color;
     border-radius: 20px 0 0 20px;
     font-family: partial.$font;
     font-size: 20px;
@@ -465,8 +476,6 @@ p{
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 80px;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 main input[type=navn], input[type=email], input[type=tel], select, textarea {
@@ -491,12 +500,87 @@ main input[type=submit]{
     @include partial.btn;
 
         &:hover{
+            background-color: partial.$primary-color;
+            border: 3px solid partial.$secondary-color;
+            transition: 0.3s ease-in-out;
             cursor: pointer;
         }
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.bunden{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 
 .pilop{
     width: 35px;
+}
+
+/*Styling af FAQ siden*/
+/* dropdown menu */
+.faq-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 125px;
+  }
+
+  .dropdown-btn{
+    width: 750px;
+    height: 60px;
+    font-family: partial.$font;
+    color: black;
+    font-size: 22px;
     display: flex;
-    justify-self: right;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: partial.$bg-color;
+        
+        &:hover{
+            background-color: rgba(212, 123, 40, 0.1);
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+    }
+  }
+  
+  .pilned{
+    height: 20px;
+  }
+
+
+
+.faq-box1{
+    height: 475px;
+    background-color: partial.$bg-color;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+}
+.faq-box2{
+    height: 475px;
+    background-color: partial.$primary-color;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+}
+
+.knap{
+    @include partial.btn;
+    &:hover{
+        background-color: partial.$primary-color;
+        border: 3px solid partial.$secondary-color;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+.faq-bunden{
+    display: flex;
+    justify-content: right;
+    align-items: end;
 }
