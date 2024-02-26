@@ -7,9 +7,10 @@
     padding: 0;
 }
 
-h1 h2{
+h1, h2{
     font-family: partial.$header-font;
     font-size: 60px;
+    font-weight: 400;
     text-transform: uppercase;
     color: partial.$text-color;
     letter-spacing: 5%;
@@ -358,3 +359,13 @@ p{
 .nysgerrigstory{
     text-align: center;
 }
+
+/*Styling af Kontakt side*/
+.BGtop{
+    background-image: url("../img/BGtop.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+

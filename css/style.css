@@ -9,9 +9,10 @@
   padding: 0;
 }
 
-h1 h2 {
+h1, h2 {
   font-family: "hobeaux", sans-serif;
   font-size: 60px;
+  font-weight: 400;
   text-transform: uppercase;
   color: #37476c;
   letter-spacing: 5%;
@@ -364,4 +365,13 @@ p {
 
 .nysgerrigstory {
   text-align: center;
+}
+
+/*Styling af Kontakt side*/
+.BGtop {
+  background-image: url("../img/BGtop.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
