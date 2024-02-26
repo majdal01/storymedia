@@ -7,6 +7,36 @@
     padding: 0;
 }
 
+h1 h2{
+    font-family: partial.$header-font;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: partial.$text-color;
+    letter-spacing: 5%;
+}
+
+h3{
+    font-family: partial.$header-font;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: partial.$text-color;
+    letter-spacing: 5%;   
+}
+
+h4{
+    font-family: partial.$font;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: partial.$text-color;
+    letter-spacing: 5%;
+}
+
+p{
+    font-family: partial.$font;
+    font-size: 22px;
+    color: partial.$text-color;
+    letter-spacing: 5%;
+}
 
 
 /*Styling af Branding proces*/
@@ -88,7 +118,7 @@
 }
 
 .branding-tekst-bokse-venstre{
-    grid-area: 1 / /1 / 2  2;
+    grid-area: 1 / 1 / 2  2;
     background-color: rgba(239, 234, 225, 0.6);
     padding-left: 100px;
     padding-right: 100px;

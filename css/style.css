@@ -9,6 +9,37 @@
   padding: 0;
 }
 
+h1 h2 {
+  font-family: "hobeaux", sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #37476c;
+  letter-spacing: 5%;
+}
+
+h3 {
+  font-family: "hobeaux", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #37476c;
+  letter-spacing: 5%;
+}
+
+h4 {
+  font-family: "roboto", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #37476c;
+  letter-spacing: 5%;
+}
+
+p {
+  font-family: "roboto", sans-serif;
+  font-size: 22px;
+  color: #37476c;
+  letter-spacing: 5%;
+}
+
 /*Styling af Branding proces*/
 /*Branding - hero område */
 .branding-main {
@@ -96,7 +127,7 @@
 }
 
 .branding-tekst-bokse-venstre {
-  grid-area: 1//1/2 2;
+  grid-area: 1/1/2 2;
   background-color: rgba(239, 234, 225, 0.6);
   padding-left: 100px;
   padding-right: 100px;
