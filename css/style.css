@@ -112,6 +112,16 @@ p {
   width: 100%;
 }
 
+.brodkrommebrand {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 36px;
+  position: absolute;
+  height: 360px;
+  right: 10%;
+  top: 100%;
+}
+
 .branding-container-venstre {
   display: grid;
   width: 75%;
@@ -229,6 +239,16 @@ p {
   background-position: top;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.brodkromme {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 36px;
+  position: absolute;
+  height: 160px;
+  right: 10%;
+  top: 100%;
 }
 
 /*Hovedindhold*/
@@ -376,7 +396,7 @@ p {
 }
 
 /*Styling af Storytelling*/
-.storytelling-main {
+.BGbillede-storytelling {
   background-image: url("../img/TopBG.png");
   background-size: contain;
   background-position: top;
@@ -385,6 +405,12 @@ p {
 }
 
 /* Story tekst billede */
+.wooddesignoverskrift {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
 .storytekstbillede {
   display: flex;
   width: 100%;
