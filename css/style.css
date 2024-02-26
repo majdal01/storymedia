@@ -39,6 +39,7 @@ p {
   font-size: 22px;
   color: #37476c;
   letter-spacing: 5%;
+  padding-bottom: 8px;
 }
 
 /*Styling af Branding proces*/
@@ -54,8 +55,6 @@ p {
 .hero-container {
   display: flex;
   width: 100%;
-  padding: 0 100px;
-  padding-top: 174px;
 }
 
 .hero-tekst h1 {
@@ -66,6 +65,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: right;
+  margin-right: 200px;
 }
 
 .hero-img img {
@@ -229,6 +229,11 @@ p {
   gap: 100px;
 }
 
+.overoverskrift {
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+
 /*Visuelle pakker*/
 .vispakker-container {
   display: flex;
@@ -377,30 +382,39 @@ p {
 }
 
 .kontaktinfo {
-  margin-top: 150px;
+  margin-top: 15em;
   display: grid;
-  grid-template-columns: 100px, 1fr, 1fr, 100px;
+  grid-template-columns: 1fr, 1fr;
+  margin-bottom: 10px;
 }
 
 .kontakter {
-  grid-column: 2/3;
+  grid-column: 1/2;
 }
 
 .kontaktimg {
-  grid-column: 3/4;
+  grid-column: 2/3;
+}
+
+.chevron {
+  align-items: center;
+}
+
+.charfunktion {
+  position: fixed;
 }
 
 .kontaktform {
   display: grid;
-  grid-template-columns: 200px, 1fr, 1fr, 200px;
+  grid-template-columns: 1fr, 1fr;
 }
 
 .kontaktinformation {
-  grid-column: 2/3;
+  grid-column: 1/2;
 }
 
 .kontaktformular {
-  grid-column: 3/4;
+  grid-column: 2/3;
 }
 
 /*kontaktformular*/
@@ -414,6 +428,11 @@ p {
   text-transform: uppercase;
   color: #37476c;
   letter-spacing: 5%;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 main input[type=navn], input[type=email], input[type=tel], select, textarea {
@@ -427,19 +446,33 @@ main input[type=navn], input[type=email], input[type=tel], select, textarea {
 
 main input[type=text], select, textarea {
   width: 100%;
-  padding: 1em;
+  padding: 8em;
   border: 1px solid #d47b28;
   border-radius: 4px;
   margin-top: 0.5em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 main input[type=submit] {
-  background-color: #DD7824;
-  color: #fff;
-  padding: 0.8em 1.5em;
-  border: none;
-  border-radius: 4px;
-  width: 100%;
-  font-size: 18px;
+  background-color: #d47b28;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  text-align: center;
+  padding: 13.5px 111px;
+  color: black;
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+main input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.pilop {
+  width: 35px;
+  display: flex;
+  justify-self: right;
 }/*# sourceMappingURL=style.css.map */

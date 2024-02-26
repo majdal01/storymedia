@@ -376,30 +376,40 @@ p{
 }
 
 .kontaktinfo{
-    margin-top: 150px;
+    margin-top: 15em;
     display: grid;
-    grid-template-columns: 100px, 1fr, 1fr, 100px;
+    grid-template-columns: 1fr, 1fr;
+    margin-bottom: 10px;
 }
 
 .kontakter{
-    grid-column: 2/3;
+    grid-column: 1/2;
 }
 
 .kontaktimg{
-    grid-column: 3/4;
+    grid-column: 2/3;
+
+}
+
+.chevron{
+    align-items: center;
+}
+
+.charfunktion{
+    position: fixed;
 }
 
 .kontaktform{
     display: grid;
-    grid-template-columns: 200px, 1fr, 1fr, 200px;
+    grid-template-columns: 1fr, 1fr;
 }
 
 .kontaktinformation{
-    grid-column: 2/3;
+    grid-column: 1/2;
 }
 
 .kontaktformular{
-    grid-column: 3/4;
+    grid-column: 2/3;
 }
 
 /*kontaktformular*/
@@ -413,6 +423,11 @@ p{
     text-transform: uppercase;
     color: partial.$text-color;
     letter-spacing: 5%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 main input[type=navn], input[type=email], input[type=tel], select, textarea {
@@ -426,19 +441,23 @@ main input[type=navn], input[type=email], input[type=tel], select, textarea {
 
 main input[type=text], select, textarea {
 	width: 100%;
-	padding: 1em;
+	padding: 8em;
 	border: 1px solid partial.$secondary-color;
 	border-radius: 4px;
 	margin-top: 0.5em;
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 }
 
 main input[type=submit]{
-	background-color: #DD7824;
-	color: #fff;
-	padding: 0.8em 1.5em;
-	border: none;
-	border-radius: 4px;
-	width: 100%;
-	font-size: 18px;
+    @include partial.btn;
+
+        &:hover{
+            cursor: pointer;
+        }
+}
+
+.pilop{
+    width: 35px;
+    display: flex;
+    justify-self: right;
 }
