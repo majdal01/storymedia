@@ -368,7 +368,7 @@ p{
 
  /*Styling af Storytelling*/
 
- .storytelling-main{
+ .BGbillede-storytelling{
     background-image: url('../img/TopBG.png');
     background-size: contain;
     background-position: top;
@@ -377,6 +377,12 @@ p{
  }
 
 /* Story tekst billede */
+
+.wooddesignoverskrift{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
 
 .storytekstbillede{
     display: flex;
