@@ -231,6 +231,16 @@ p {
   width: 100%;
 }
 
+.brodkromme {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 36px;
+  position: absolute;
+  height: 160px;
+  right: 10%;
+  top: 100%;
+}
+
 /*Hovedindhold*/
 .stark-container {
   display: flex;
