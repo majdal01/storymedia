@@ -41,11 +41,7 @@ p {
   font-size: 22px;
   color: #37476c;
   letter-spacing: 5%;
-<<<<<<< HEAD
-  padding-bottom: 8px;
-=======
   padding-bottom: 15px;
->>>>>>> dd35a13cfd89e3cbdb7db6e85c97eade5155fb25
 }
 
 /*Styling af Branding proces*/
@@ -61,10 +57,7 @@ p {
 .hero-container {
   display: flex;
   width: 100%;
-<<<<<<< HEAD
-=======
   padding: 200px 100px 0 100px;
->>>>>>> dd35a13cfd89e3cbdb7db6e85c97eade5155fb25
 }
 
 .hero-tekst h1 {
