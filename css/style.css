@@ -16,6 +16,7 @@ h1, h2 {
   text-transform: uppercase;
   color: #37476c;
   letter-spacing: 5%;
+  padding-bottom: 20px;
 }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
   text-transform: uppercase;
   color: #37476c;
   letter-spacing: 5%;
+  font-weight: 400;
 }
 
 h4 {
@@ -39,7 +41,11 @@ p {
   font-size: 22px;
   color: #37476c;
   letter-spacing: 5%;
+<<<<<<< HEAD
   padding-bottom: 8px;
+=======
+  padding-bottom: 15px;
+>>>>>>> dd35a13cfd89e3cbdb7db6e85c97eade5155fb25
 }
 
 /*Styling af Branding proces*/
@@ -55,6 +61,10 @@ p {
 .hero-container {
   display: flex;
   width: 100%;
+<<<<<<< HEAD
+=======
+  padding: 200px 100px 0 100px;
+>>>>>>> dd35a13cfd89e3cbdb7db6e85c97eade5155fb25
 }
 
 .hero-tekst h1 {
@@ -239,6 +249,7 @@ p {
   display: flex;
   margin-top: 135px;
   margin-bottom: 200px;
+  height: 921px;
 }
 
 .vis-et {
@@ -247,7 +258,7 @@ p {
   padding: 70px 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  position: relative;
 }
 
 .vis-to {
@@ -257,20 +268,42 @@ p {
   padding: 70px 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  position: relative;
+}
+
+.h2vispakker {
+  padding: 0;
+}
+
+.vis-et li, .vis-to li {
+  font-size: 40px;
+  padding: 5px 0;
+}
+
+.pvispakker {
+  opacity: 50%;
+  letter-spacing: 5%;
+  padding-bottom: 30px;
 }
 
 .kontakt-visuel-container {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  padding-top: 50px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 70px;
+}
+
+.pvispris {
+  padding-bottom: 25px;
 }
 
 .kontaktvisuel {
   border: 1px solid black;
-  padding: 5px 20px;
+  padding: 7px 20px;
   border-radius: 50px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 /* Tekst til hjemmeside */
