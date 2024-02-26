@@ -103,6 +103,16 @@ p{
     width: 100%;
  }
 
+ .brodkrommebrand{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 36px;
+    position: absolute;
+    height: 360px;
+    right: 10%;
+    top: 100%;
+ }
+
 .branding-container-venstre{
     display: grid;
     width: 75%;
