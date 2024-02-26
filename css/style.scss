@@ -228,6 +228,7 @@ p{
     display: flex;
     margin-top: 135px;
     margin-bottom: 200px;
+    height: 921px;
  }
 
  .vis-et{
@@ -236,7 +237,7 @@ p{
     padding: 70px 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
  }
 
  .vis-to{
@@ -246,34 +247,42 @@ p{
     padding: 70px 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
  }
 
  .h2vispakker{
     padding: 0;
  }
 
- /*.vis-et li, .vis-to li{
-    list-style-type: none;
-
- }*/
+ .vis-et li, .vis-to li{
+    font-size: 40px;
+    padding: 5px 0;
+ }
 
  .pvispakker{
     opacity: 50%;
     letter-spacing: 5%;
+    padding-bottom: 30px;
  }
 
  .kontakt-visuel-container{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    padding-top: 50px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 70px;
+ }
+
+ .pvispris{
+    padding-bottom: 25px;
  }
 
  .kontaktvisuel{
     border: 1px solid black;
-    padding: 5px 20px;
+    padding: 7px 20px;
     border-radius: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
  }
 
  /* Tekst til hjemmeside */
