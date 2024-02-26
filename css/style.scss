@@ -47,18 +47,10 @@ p{
 
 /*Branding - hero område */
 
-.branding-main{
-    background-image: url('../img/Brandingbaggrund.png');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    width: 100%;
- }
-
 .hero-container{
     display: flex;
     width: 100%;
-    padding: 200px 100px 0 100px;
+    padding: 150px 100px 0 100px;
 } 
 
 .hero-tekst h1{
@@ -70,6 +62,11 @@ p{
     display: flex;
     justify-content: right;
     margin-right: 200px;
+}
+
+.brandingimgtop{
+    width: 150%;
+    margin: 0;
 }
 
 .hero-img img{
@@ -92,7 +89,7 @@ p{
  }
 
  .chevron{
-   padding: 150px;
+   padding: 100px;
  }
 
 /* Branding hovedområde */
