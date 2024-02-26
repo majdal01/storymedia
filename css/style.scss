@@ -234,7 +234,7 @@ p{
  .vis-et{
     background-color: partial.$primary-color;
     width: 50%;
-    padding: 70px 100px;
+    padding: 70px 150px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -244,7 +244,7 @@ p{
     border: 7px solid partial.$primary-color;
     border-right: none;
     width: 50%;
-    padding: 70px 100px;
+    padding: 70px 150px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -259,7 +259,7 @@ p{
     padding: 5px 0;
  }
 
- .pvispakker{
+ .p-opacity-pakker{
     opacity: 50%;
     letter-spacing: 5%;
     padding-bottom: 30px;
@@ -318,7 +318,11 @@ p{
  .hjemmesidekasse {
     background-color: partial.$primary-color;
     height: 900px;
-    padding: 5%;
+    padding: 6%;
+ }
+
+ .centrerhjemmeside{
+    text-align: center;
  }
 
  .linjeydelser{
@@ -349,6 +353,10 @@ p{
 
  .specifiktekst{
     padding-right: 50px;
+ }
+
+ .specafstand{
+    padding-bottom: 50px;
  }
 
 
