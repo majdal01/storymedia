@@ -37,6 +37,7 @@ p{
     font-size: 22px;
     color: partial.$text-color;
     letter-spacing: 5%;
+    padding-bottom: 8px;
 }
 
 
@@ -55,8 +56,7 @@ p{
 .hero-container{
     display: flex;
     width: 100%;
-    padding: 0 100px;
-    padding-top: 174px;
+    
 } 
 
 .hero-tekst h1{
@@ -67,6 +67,7 @@ p{
     width: 100%;
     display: flex;
     justify-content: right;
+    margin-right: 200px;
 }
 
 .hero-img img{
@@ -212,6 +213,11 @@ p{
     display: flex;
     margin: auto 100px;
     gap: 100px;
+ }
+
+ .overoverskrift{
+    font-weight: 100;
+    padding-bottom: 10px;
  }
 
 /*Visuelle pakker*/
