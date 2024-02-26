@@ -23,6 +23,7 @@ h3{
     text-transform: uppercase;
     color: partial.$text-color;
     letter-spacing: 5%;   
+    font-weight: 400;
 }
 
 h4{
@@ -246,6 +247,20 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+ }
+
+ .h2vispakker{
+    padding: 0;
+ }
+
+ /*.vis-et li, .vis-to li{
+    list-style-type: none;
+
+ }*/
+
+ .pvispakker{
+    opacity: 50%;
+    letter-spacing: 5%;
  }
 
  .kontakt-visuel-container{
