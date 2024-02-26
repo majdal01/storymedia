@@ -7,11 +7,35 @@
     <link rel="stylesheet" href="css/global.css">
     <title>Ydelser</title>
 </head>
-<body>
+<body class="BGbillede-ydelser">
 
-    <header id="tiltopydelser"></header>
-
-    <main class="ydelser-main">
+    <header class="header1" id="tiltopydelser">
+        <a href="index.html"><img src="img/Logo - ikon+tekst på linje.png" alt="Story Media logo" class="headerlogo"></a>
+        <nav>
+            <ul>
+            <li><a href="kontakt.html"><img src="img/mail ikon.png" alt="kontakt icon" class="kontaktikon"></a></li>
+            <li><div class="sogefelt"><img src="img/søg ikon.png" alt="søgefelt" class="sog"></div></li>
+            </ul>
+        </nav>      
+    </header>
+    <header class="header2">
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <h1 class="menu">MENU</h1>
+                    <ul class="dropdown-menu">
+                        <li><a href="ydelser.html">Ydelser</a></li>
+                        <li><a href="branding-proces.html">Branding proces</a></li>
+                        <li><a href="storytelling.html">Storytelling</a></li>
+                        <li><a href="om-story-media.html">Om Story Media</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
 
         <div class="hero-container">
             <article class="hero-tekst">
@@ -175,7 +199,7 @@
             <div class="footergrid">
                 <div class="footernav">
                     <nav>
-                        <h3>Navigation</h3>
+                        <h5>Navigation</h5>
                         <ul>
                             <li><a href="index.html">Forside</a></li>
                             <li><a href="ydelser.html">Ydelser</a></li>
@@ -188,7 +212,7 @@
                     </nav>
                     <div>
                         <img class="sogikon" src="img/søg ikon.png" alt="lup">
-                        <p>Søg</p>
+                        <h5>Søg</h5>
                         <div class="linje"></div>
                     </div>
                 </div>
@@ -197,7 +221,7 @@
 
                 <div class="footerform">
                     <div class="nyhedsbrev">
-                        <h3>Tilmeld nyhedsbrev</h3>
+                        <h5>Tilmeld nyhedsbrev</h5>
                         <form>
                             <label class="visually-hidden" for="mail"></label>
                             <input id="mail" type="email" placeholder="E-mail">
@@ -223,7 +247,7 @@
                 </div>
             </div>
         <hr class="seperator">
-        <p class="copy">Copyright &copy; 2023 Story Media. All rights reserved.</p>
+        <h5 class="copy">Copyright &copy; 2023 Story Media. All rights reserved.</h5>
     </footer>
     
 </body>
