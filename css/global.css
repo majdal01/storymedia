@@ -13,15 +13,127 @@ p{
     color: #37476C;
 }
 
-h3{
+h5{
     font-family: "roboto", sans-serif;
     font-size: 18px;
     color: #37476C;
     line-height: 30px;
 }
 
+/* Baggrundsbillede */
+
+.BGbillede{
+    background-image: url("../img/BGforside.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 /*Header*/
 
+.headerlogo{
+    width: 330px;
+}
+
+.kontaktikon{
+    width: 39.17px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+}
+
+.kontaktikon:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.sog{
+    width: 30.4px;
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.sogefelt{
+    border: 1px solid #37476C;
+    border-radius: 50px;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+    background-color: white;
+}
+
+.header1{
+    padding: 25px 25px 0px 25px ;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1 li{
+    display: inline;
+}
+
+/*Drop-down*/
+
+.header2{
+    position: fixed;
+    left: 95.5%;
+}
+
+.menu{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-family: hobeaux, sans-serif;
+    font-size: 60px;
+    color: #D47B28;
+}
+
+.menu:hover{
+    -webkit-text-stroke: 2px #37476C;
+}
+
+.dropdown{
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #D47B28;
+    border-radius: 5px;
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    color: #37476C;
+    padding: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    right: 95%;
+    top: 2%;
+}
+
+.dropdown-menu li {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: #37476C;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgba(212, 123, 40, 0.1);
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
 
 /*Footer*/
 .seperator{
