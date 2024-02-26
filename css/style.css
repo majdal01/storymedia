@@ -103,6 +103,14 @@ p {
 }
 
 /* Branding hovedområde */
+.BGbillede-branding {
+  background-image: url("../img/Brandingbaggrund.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 .branding-container-venstre {
   display: grid;
   width: 75%;
