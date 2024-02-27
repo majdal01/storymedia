@@ -429,6 +429,22 @@ p{
             letter-spacing: 1px;
             color: partial.$text-color;
         }
+
+        a{
+            @include partial.btn;
+            
+        }
+
+        ul{
+            padding: 4em 0;
+        }
+}
+
+.case{
+    background-color: partial.$primary-color;
+    margin: 4em 0;
+    padding: 4em 6em;
+    border: 2 solid partial.$primary-color;
 }
 
 .storytekstbillede{
