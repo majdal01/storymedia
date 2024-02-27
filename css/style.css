@@ -43,6 +43,7 @@ p {
   color: #37476c;
   letter-spacing: 5%;
   padding-bottom: 15px;
+  line-height: 26px;
 }
 
 /*Styling af Branding proces*/
@@ -413,9 +414,20 @@ p {
   padding: 0 2em 0 6em;
 }
 .hvad-er-storytelling img {
-  width: 100%;
+  max-width: 100%;
   margin: 0 6em 0 0;
-  padding-bottom: 4em;
+}
+
+.hvorfor-storytelling {
+  background-color: #efeae1;
+  padding: 4em 6em;
+}
+.hvorfor-storytelling li {
+  font-family: "roboto", sans-serif;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  color: #37476c;
 }
 
 .storytekstbillede {

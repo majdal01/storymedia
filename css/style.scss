@@ -41,6 +41,7 @@ p{
     color: partial.$text-color;
     letter-spacing: 5%;
     padding-bottom: 15px;
+    line-height: 26px;
 }
 
 
@@ -412,9 +413,21 @@ p{
         }
 
         img{
-            width: 100%;
+            max-width: 100%;
             margin: 0 6em 0 0;
-            padding-bottom: 4em;
+        }
+}
+
+.hvorfor-storytelling{
+    background-color: partial.$primary-color;
+    padding: 4em 6em;
+
+        li{
+            font-family: partial.$font;
+            font-size: 22px;
+            line-height: 35px;
+            letter-spacing: 1px;
+            color: partial.$text-color;
         }
 }
 
