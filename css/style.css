@@ -98,8 +98,7 @@ p {
 .chevron-container {
   text-align: center;
 }
-
-.chevron {
+.chevron-container img {
   padding: 100px;
 }
 
@@ -397,7 +396,7 @@ p {
   padding-bottom: 50px;
 }
 
-/*Styling af Storytelling*/
+/********--Styling af Storytelling--*******/
 .BGbillede-storytelling {
   background-image: url("../img/TopBG.png");
   background-size: contain;
@@ -407,16 +406,28 @@ p {
 }
 
 /* Story tekst billede */
-.wooddesignoverskrift {
-  font-size: 30px;
-  font-weight: 400;
-  padding-bottom: 20px;
+.hvad-er-storytelling {
+  display: flex;
+}
+.hvad-er-storytelling article {
+  padding: 0 2em 0 6em;
+}
+.hvad-er-storytelling img {
+  width: 100%;
+  margin: 0 6em 0 0;
+  padding-bottom: 4em;
 }
 
 .storytekstbillede {
   display: flex;
   width: 100%;
   margin-bottom: 70px;
+}
+
+.wooddesignoverskrift {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
 }
 
 .storytekst {

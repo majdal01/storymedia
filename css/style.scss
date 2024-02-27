@@ -87,11 +87,13 @@ p{
 
  .chevron-container{
     text-align: center;
+
+        img{
+            padding: 100px;
+        }
  }
 
- .chevron{
-   padding: 100px;
- }
+
 
 /* Branding hovedområde */
 
@@ -390,7 +392,7 @@ p{
  }
 
 
- /*Styling af Storytelling*/
+ /********--Styling af Storytelling--*******/
 
  .BGbillede-storytelling{
     background-image: url('../img/TopBG.png');
@@ -402,16 +404,30 @@ p{
 
 /* Story tekst billede */
 
-.wooddesignoverskrift{
-    font-size: 30px;
-    font-weight: 400;
-    padding-bottom: 20px;
+.hvad-er-storytelling{
+    display: flex;
+
+        article{
+            padding: 0 2em 0 6em;
+        }
+
+        img{
+            width: 100%;
+            margin: 0 6em 0 0;
+            padding-bottom: 4em;
+        }
 }
 
 .storytekstbillede{
     display: flex;
     width: 100%;
     margin-bottom: 70px;
+}
+
+.wooddesignoverskrift{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
 }
 
 .storytekst{
