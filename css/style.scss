@@ -316,89 +316,8 @@ p{
   }
   
 
-/*********--Styling af Branding proces--***********/
-
-/* Branding hovedområde */
-.branding-container-venstre{
-    display: grid;
-    width: 75%;
-    grid-template-columns: 63% 37%;
-    grid-template-rows:  463px;
-    border: 5px solid rgba(55, 71, 108, 0.6);
-    border-radius: 0 50px 50px 0;
-    border-left: none;
-    margin-bottom: 145px;
-}
-
-.branding-container-hojre{
-    display: grid;
-    width: 75%;
-    grid-template-columns: 37% 63%;
-    grid-template-rows: 463px;
-    justify-content: end;
-    margin-left: auto;
-    border: 5px solid rgba(55, 71, 108, 0.6);
-    border-right: none;
-    border-radius: 50px 0 0 50px;
-    margin-bottom: 145px;
-}
-
-.branding-tekst-bokse-venstre{
-    grid-area: 1 / 1 / 2  2;
-    background-color: rgba(239, 234, 225, 0.6);
-    padding-left: 100px;
-    padding-right: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.branding-tekst-bokse-hojre{
-    grid-area: 1 / 2 / 2 / 3;
-    background-color: rgba(239, 234, 225, 0.6);
-    padding-left: 100px;
-    padding-right: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.branding-img-bokse-venstre{
-    grid-area: 1 / 2 / 2 / 3;
-    display: flex;
-    align-content: center;
-}
-
-.branding-img-bokse-hojre{
-    grid-area: 1 / 1 / 2 / 2;
-    display: flex;
-    align-content: center;
-}
-
-.branding-kasseimg-venstre{
-    max-width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-    border-radius: 0 45px 45px 0;
-}
-
-.branding-kasseimg-hojre{
-    max-width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-    border-radius: 45px 0 0 45px;
-}
-
-/*Road to succes*/
-
-.roadtosucces{
-    text-align: center;
-}
-
 
 /**********--Styling af Ydelser--***********/
-
-/*Test på ny kodning*/
 
  /*Hovedindhold*/
 
@@ -417,54 +336,62 @@ p{
 
  .vispakker-container{
     display: flex;
-    margin-top: 135px;
-    margin-bottom: 200px;
-    height: 921px;
+    margin-top: 5em;
+    margin-bottom: 7em;
+    height: 100vh;
+
+    .vis-et{
+        background-color: partial.$primary-color;
+        width: 50%;
+        padding: 4em 9em;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+     }
+
+     .vis-to{
+        border: 7px solid partial.$primary-color;
+        border-right: none;
+        width: 50%;
+        padding: 4em 9em;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+     }
+
+     h3{
+        font-size: 30px;
+     }
  }
 
- .vis-et{
-    background-color: partial.$primary-color;
-    width: 50%;
-    padding: 70px 150px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
- }
+ .vis-et, .vis-to{
+    li{
+        font-size: 30px;
+    }
 
- .vis-to{
-    border: 7px solid partial.$primary-color;
-    border-right: none;
-    width: 50%;
-    padding: 70px 150px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
- }
+    h2{
+        padding: 0;
+    }
 
- .h2vispakker{
-    padding: 0;
- }
-
- .vis-et li, .vis-to li{
-    font-size: 40px;
-    padding: 5px 0;
- }
-
- .p-opacity-pakker{
-    opacity: 50%;
-    letter-spacing: 5%;
-    padding-bottom: 30px;
+    .p-opacity-pakker{
+        opacity: 50%;
+        letter-spacing: 5%;
+        padding-bottom: 1.5em;
+     }
+    
  }
 
  .kontakt-visuel-container{
     position: absolute;
     bottom: 0;
-    padding-bottom: 70px;
+    padding-bottom: 3em;
+
+        p{
+            padding-bottom: 1.2em;
+        }
  }
 
- .pvispris{
-    padding-bottom: 25px;
- }
+
 
  .kontaktvisuel{
     border: 1px solid black;
@@ -549,6 +476,86 @@ p{
  .specafstand{
     padding-bottom: 50px;
  }
+
+
+/*********--Styling af Branding proces--***********/
+
+/* Branding hovedområde */
+.branding-container-venstre{
+    display: grid;
+    width: 75%;
+    grid-template-columns: 63% 37%;
+    grid-template-rows:  463px;
+    border: 5px solid rgba(55, 71, 108, 0.6);
+    border-radius: 0 50px 50px 0;
+    border-left: none;
+    margin-bottom: 145px;
+}
+
+.branding-container-hojre{
+    display: grid;
+    width: 75%;
+    grid-template-columns: 37% 63%;
+    grid-template-rows: 463px;
+    justify-content: end;
+    margin-left: auto;
+    border: 5px solid rgba(55, 71, 108, 0.6);
+    border-right: none;
+    border-radius: 50px 0 0 50px;
+    margin-bottom: 145px;
+}
+
+.branding-tekst-bokse-venstre{
+    grid-area: 1 / 1 / 2  2;
+    background-color: rgba(239, 234, 225, 0.6);
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.branding-tekst-bokse-hojre{
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: rgba(239, 234, 225, 0.6);
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.branding-img-bokse-venstre{
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    align-content: center;
+}
+
+.branding-img-bokse-hojre{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    align-content: center;
+}
+
+.branding-kasseimg-venstre{
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 0 45px 45px 0;
+}
+
+.branding-kasseimg-hojre{
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 45px 0 0 45px;
+}
+
+/*Road to succes*/
+
+.roadtosucces{
+    text-align: center;
+}
 
 
  /********--Styling af Storytelling--*******/
