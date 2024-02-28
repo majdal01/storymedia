@@ -389,15 +389,19 @@ p {
 .kontakt-visuel-container p {
   padding-bottom: 1.2em;
 }
-
-.kontaktvisuel {
+.kontakt-visuel-container a {
   border: 1px solid black;
-  padding: 7px 20px;
+  padding: 0.5em 1.5em;
   border-radius: 50px;
   color: black;
   text-transform: uppercase;
   font-size: 20px;
   text-decoration: none;
+}
+.kontakt-visuel-container a:hover {
+  cursor: pointer;
+  transform: scale(3);
+  transition: 0.3s ease-in-out;
 }
 
 /* Tekst til hjemmeside */
@@ -405,7 +409,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 0 200px 150px 200px;
+  padding: 0 8em 3em 8em;
 }
 
 /*Hjemmesidekasser*/
@@ -414,7 +418,7 @@ p {
   width: 100%;
   height: 62.2vh;
   position: absolute;
-  z-index: 1;
+  z-index: -2;
 }
 
 .hjemmesidekasse-container {
@@ -423,12 +427,11 @@ p {
   gap: 1%;
   padding: 0 1%;
   position: relative;
-  z-index: 2;
+  z-index: -1;
   margin-top: 20px;
-  margin-bottom: 160px;
+  margin-bottom: 5em;
 }
-
-.hjemmesidekasse {
+.hjemmesidekasse-container section {
   background-color: #F7F1E6;
   height: 900px;
   padding: 6%;
@@ -436,6 +439,14 @@ p {
 
 .centrerhjemmeside {
   text-align: center;
+}
+.centrerhjemmeside h2 {
+  padding: 0;
+}
+.centrerhjemmeside p {
+  opacity: 50%;
+  letter-spacing: 5%;
+  padding-bottom: 1.5em;
 }
 
 .linjeydelser {
@@ -459,15 +470,14 @@ p {
 .specifikke {
   display: flex;
   justify-content: space-around;
-  padding: 80px 100px;
+  padding: 5em 6em;
 }
-
-.specifiktekst {
+.specifikke article {
   padding-right: 50px;
 }
 
 .specafstand {
-  padding-bottom: 50px;
+  padding-bottom: 1.5em;
 }
 
 /*********--Styling af Branding proces--***********/
