@@ -186,13 +186,77 @@ p{
 
 /*********-- Styling af Forsiden --*********/
 
+/*hover hero-billede*/
+
+.illforside:hover{
+    content: url(../img/illustration\ -\ forside3.png);
+}
+
+/*Branding video*/
+.brandingvideo{
+    text-align: center;
+
+        h4{
+            padding-top: 100px;
+            padding-bottom: 70px;
+        }
+}
+
+/*Intro/informationstekst*/
+.intro{
+    background-image: url(../img/logo\ -\ ikon\ baggrund.png);
+    background-size: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 100px 0 100px 100px;
+
+        h2, h3, p{
+            margin-right: 40%;
+        }
+
+        h3{
+            margin-top: 40px;
+        }
+
+        p{
+            margin:40px 40% 0 0;
+        }
+
+        .orange, .fed-orange{
+            color: partial.$secondary-color;
+        }
+
+        .fed-orange{
+            font-size: 26px;
+            font-weight: 800;
+        }
+
+        li{
+            color: partial.$text-color;
+            font-family: partial.$font;
+            margin-left: 40px;
+            font-size: 22px;
+        }
+}
 
 /*tekst og billede sektioner*/
-.text-img-sektion{
+
+.text-img-section {
+    height: 650px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: partial.$primary-color;
-    height: 650px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: auto;
+
+        h2{
+            padding-top: 140px;
+        }
+
+        .vi-tilbyder{
+            padding-top: 10px;
+        }
 }
 
 .txt{
@@ -201,8 +265,31 @@ p{
 
 .foto{
     grid-column: 4/6;
+
+        img{
+            height: 650px;
+            width: 500px;
+        }
+}
+.txt2{
+    grid-column: 3/6;
 }
 
+.foto2{
+    grid-column: 1/3;
+
+        img{
+            height: 650px;
+            width: 500px;
+        }
+}
+
+.logo-foto{
+    grid-column: 4/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Instagram karrusel*/
 .karrusel-box{
