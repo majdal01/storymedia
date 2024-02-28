@@ -338,7 +338,7 @@ p{
     display: flex;
     margin-top: 5em;
     margin-bottom: 7em;
-    height: 100vh;
+    height: 95vh;
 
     .vis-et{
         background-color: partial.$primary-color;
@@ -505,6 +505,16 @@ p{
     border-radius: 0 50px 50px 0;
     border-left: none;
     margin-bottom: 145px;
+
+        section{
+            grid-area: 1 / 1 / 2  2;
+            background-color: rgba(239, 234, 225, 0.6);
+            padding-left: 6em;
+            padding-right: 6em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 }
 
 .branding-container-hojre{
@@ -518,53 +528,44 @@ p{
     border-right: none;
     border-radius: 50px 0 0 50px;
     margin-bottom: 145px;
-}
 
-.branding-tekst-bokse-venstre{
-    grid-area: 1 / 1 / 2  2;
-    background-color: rgba(239, 234, 225, 0.6);
-    padding-left: 100px;
-    padding-right: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.branding-tekst-bokse-hojre{
-    grid-area: 1 / 2 / 2 / 3;
-    background-color: rgba(239, 234, 225, 0.6);
-    padding-left: 100px;
-    padding-right: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+        section{
+            grid-area: 1 / 2 / 2 / 3;
+            background-color: rgba(239, 234, 225, 0.6);
+            padding-left: 6em;
+            padding-right: 6em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 }
 
 .branding-img-bokse-venstre{
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
     align-content: center;
+
+        img{
+            max-width: 100%;
+            object-fit: cover;
+            aspect-ratio: 1 / 1;
+            border-radius: 0 45px 45px 0;
+        }
 }
 
 .branding-img-bokse-hojre{
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
     align-content: center;
+
+        img{
+            max-width: 100%;
+            object-fit: cover;
+            aspect-ratio: 1 / 1;
+            border-radius: 45px 0 0 45px;
+        }
 }
 
-.branding-kasseimg-venstre{
-    max-width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-    border-radius: 0 45px 45px 0;
-}
-
-.branding-kasseimg-hojre{
-    max-width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-    border-radius: 45px 0 0 45px;
-}
 
 /*Road to succes*/
 
