@@ -211,6 +211,30 @@ p {
 }
 
 /*********-- Styling af Forsiden --*********/
+/*Instagram karrusel*/
+.karrusel-box {
+  height: 688px;
+  width: auto;
+  background-color: #F7F1E6;
+  margin: 100px 50px 100px 50px;
+}
+
+.karrusel-box h3 {
+  text-align: center;
+  padding: 80px;
+}
+
+.karrusel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.slider {
+  padding: 0 10px 0 10px;
+}
+
 /*********--Styling af Branding proces--***********/
 /* Branding hovedområde */
 .branding-container-venstre {
