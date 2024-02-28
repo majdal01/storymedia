@@ -43,9 +43,10 @@ p {
   color: #37476c;
   letter-spacing: 5%;
   padding-bottom: 15px;
+  line-height: 26px;
 }
 
-/*Styling af Branding proces*/
+/*********--Styling af Branding proces--***********/
 /*Branding - hero område */
 .hero-container {
   display: flex;
@@ -98,8 +99,7 @@ p {
 .chevron-container {
   text-align: center;
 }
-
-.chevron {
+.chevron-container img {
   padding: 100px;
 }
 
@@ -232,7 +232,7 @@ p {
   text-transform: uppercase;
 }
 
-/* Styling af Ydelser */
+/**********--Styling af Ydelser--***********/
 .BGbillede-ydelser {
   background-image: url("../img/TopBG.png");
   background-size: contain;
@@ -251,6 +251,8 @@ p {
   top: 100%;
 }
 
+/*Test på ny kodning*/
+/*Hero område*/
 /*Hovedindhold*/
 .stark-container {
   display: flex;
@@ -395,7 +397,7 @@ p {
   padding-bottom: 50px;
 }
 
-/*Styling af Storytelling*/
+/********--Styling af Storytelling--*******/
 .BGbillede-storytelling {
   background-image: url("../img/TopBG.png");
   background-size: contain;
@@ -405,10 +407,52 @@ p {
 }
 
 /* Story tekst billede */
-.wooddesignoverskrift {
-  font-size: 30px;
-  font-weight: 400;
-  padding-bottom: 20px;
+.hvad-er-storytelling {
+  display: flex;
+}
+.hvad-er-storytelling article {
+  padding: 0 2em 0 6em;
+}
+.hvad-er-storytelling img {
+  max-width: 100%;
+  margin: 0 6em 0 0;
+}
+
+.hvorfor-storytelling {
+  background-color: #efeae1;
+  padding: 4em 6em;
+}
+.hvorfor-storytelling li {
+  font-family: "roboto", sans-serif;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  color: #37476c;
+}
+.hvorfor-storytelling a {
+  background-color: #d47b28;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  text-align: center;
+  padding: 13.5px 111px;
+  color: black;
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.hvorfor-storytelling ul {
+  padding: 4em 0;
+}
+
+.case {
+  background-color: #efeae1;
+  margin: 4em 0;
+  padding: 3em 6em 1em 6em;
+  border: 7px solid #d47b28;
+  border-bottom: none;
 }
 
 .storytekstbillede {
@@ -416,9 +460,19 @@ p {
   width: 100%;
   margin-bottom: 70px;
 }
+.storytekstbillede article {
+  padding: 2em 6em;
+}
+.storytekstbillede img {
+  max-width: 25%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
 
-.storytekst {
-  padding: 50px 100px;
+.wooddesignoverskrift {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
 }
 
 .beigekasse {
