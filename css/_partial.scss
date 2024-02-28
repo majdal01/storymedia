@@ -28,6 +28,7 @@ $font: "roboto", sans-serif;
         border: 3px solid $secondary-color;
         transition: 0.3s ease-in-out;
         cursor: pointer;
+        color: black;
 }
 
 @mixin website-box{
