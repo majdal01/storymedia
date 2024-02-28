@@ -45,7 +45,7 @@ p{
 }
 
 
-/*Styling af Branding proces*/
+/*********--Styling af Branding proces--***********/
 
 /*Branding - hero område */
 
@@ -218,7 +218,7 @@ p{
 
 
 
-/* Styling af Ydelser */
+/**********--Styling af Ydelser--***********/
 
 .BGbillede-ydelser{
     background-image: url('../img/TopBG.png');
@@ -443,24 +443,31 @@ p{
 .case{
     background-color: partial.$primary-color;
     margin: 4em 0;
-    padding: 4em 6em;
-    border: 2 solid partial.$primary-color;
+    padding: 3em 6em 1em 6em;
+    border: 7px solid partial.$secondary-color;
+    border-bottom: none;
 }
 
 .storytekstbillede{
     display: flex;
     width: 100%;
     margin-bottom: 70px;
+
+        article{
+            padding: 2em 6em;
+        }
+
+        img{
+            max-width: 25%;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
 }
 
 .wooddesignoverskrift{
     font-size: 30px;
     font-weight: 400;
     padding-bottom: 20px;
-}
-
-.storytekst{
-    padding: 50px 100px;
 }
 
 .beigekasse{

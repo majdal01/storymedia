@@ -46,7 +46,7 @@ p {
   line-height: 26px;
 }
 
-/*Styling af Branding proces*/
+/*********--Styling af Branding proces--***********/
 /*Branding - hero område */
 .hero-container {
   display: flex;
@@ -232,7 +232,7 @@ p {
   text-transform: uppercase;
 }
 
-/* Styling af Ydelser */
+/**********--Styling af Ydelser--***********/
 .BGbillede-ydelser {
   background-image: url("../img/TopBG.png");
   background-size: contain;
@@ -450,8 +450,9 @@ p {
 .case {
   background-color: #efeae1;
   margin: 4em 0;
-  padding: 4em 6em;
-  border: 2 solid #efeae1;
+  padding: 3em 6em 1em 6em;
+  border: 7px solid #d47b28;
+  border-bottom: none;
 }
 
 .storytekstbillede {
@@ -459,15 +460,19 @@ p {
   width: 100%;
   margin-bottom: 70px;
 }
+.storytekstbillede article {
+  padding: 2em 6em;
+}
+.storytekstbillede img {
+  max-width: 25%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
 
 .wooddesignoverskrift {
   font-size: 30px;
   font-weight: 400;
   padding-bottom: 20px;
-}
-
-.storytekst {
-  padding: 50px 100px;
 }
 
 .beigekasse {
