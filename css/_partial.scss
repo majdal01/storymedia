@@ -1,7 +1,7 @@
 /* Variabler*/
 $bg-color: #ffffff;
-$primary-color: #efeae1;
-$secondary-color: #d47b28;
+$primary-color: #F7F1E6;
+$secondary-color: #AD5715;
 $text-color: #37476c;
 $header-font: "hobeaux", sans-serif;
 $font: "roboto", sans-serif;
@@ -23,6 +23,12 @@ $font: "roboto", sans-serif;
     text-transform: uppercase;
 }
 
+@mixin btn-hover{
+        background-color: transparent;
+        border: 3px solid partial.$secondary-color;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+}
 
 @mixin website-box{
     width: 409px;

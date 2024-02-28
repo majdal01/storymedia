@@ -547,39 +547,66 @@ main input[type=submit]{
 
 /*Styling af FAQ siden*/
 /* dropdown menu */
-.faq-dropdown {
-    position: relative;
-    display: inline-block;
-    margin-top: 125px;
-  }
 
-  .dropdown-btn{
+.dropdown-box{
     width: 750px;
     height: 60px;
-    font-family: partial.$font;
-    color: black;
-    font-size: 22px;
+    border-radius: 8px;
+    background-color: partial.$bg-color;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    border: none;
-    background-color: partial.$bg-color;
-        
-        &:hover{
-            background-color: rgba(212, 123, 40, 0.1);
-            transition: 0.3s ease-in-out;
-            cursor: pointer;
-    }
-  }
+    margin-top: 100px;
+
+        p{
+            color: black;
+            font-weight: 600;
+        }   
+        img{
+            width: 20px;
+            height: 10px;
+        }
+}
+
+.faq-dropdown{
+    list-style-type: none;
+}
+
+.faq-dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    color: #37476C;
+    padding: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    list-style: none;
+}
+
+.faq-dropdown-menu li {
+    margin-bottom: 10px;
+}
+
+.faq-dropdown-menu a{
+    text-decoration: none;
+    color: #37476C;
+}
+
+.faq-dropdown-menu a:hover{
+    background-color: rgba(212, 123, 40, 0.212);
+}
+
+.faq-dropdown:hover .faq-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
   
-  .pilned{
-    height: 20px;
-  }
-
-
-
 .faq-box1{
     height: 475px;
     background-color: partial.$bg-color;
@@ -597,12 +624,10 @@ main input[type=submit]{
 
 .knap{
     @include partial.btn;
-    &:hover{
-        background-color: partial.$primary-color;
-        border: 3px solid partial.$secondary-color;
-        transition: 0.3s ease-in-out;
-        cursor: pointer;
-    }
+    
+        &:hover{
+            @include partial.btn-hover;
+        }
 }
 
 .faq-bunden{

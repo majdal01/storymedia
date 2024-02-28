@@ -565,34 +565,62 @@ main input[type=submit]:hover {
 
 /*Styling af FAQ siden*/
 /* dropdown menu */
-.faq-dropdown {
-  position: relative;
-  display: inline-block;
-  margin-top: 125px;
-}
-
-.dropdown-btn {
+.dropdown-box {
   width: 750px;
   height: 60px;
-  font-family: "roboto", sans-serif;
-  color: black;
-  font-size: 22px;
+  border-radius: 8px;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  border: none;
-  background-color: #ffffff;
+  margin-top: 100px;
 }
-.dropdown-btn:hover {
-  background-color: rgba(212, 123, 40, 0.1);
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
+.dropdown-box p {
+  color: black;
+  font-weight: 600;
+}
+.dropdown-box img {
+  width: 20px;
+  height: 10px;
 }
 
-.pilned {
-  height: 20px;
+.faq-dropdown {
+  list-style-type: none;
+}
+
+.faq-dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  color: #37476C;
+  padding: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-dropdown-menu li {
+  margin-bottom: 10px;
+}
+
+.faq-dropdown-menu a {
+  text-decoration: none;
+  color: #37476C;
+}
+
+.faq-dropdown-menu a:hover {
+  background-color: rgba(212, 123, 40, 0.212);
+}
+
+.faq-dropdown:hover .faq-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
 }
 
 .faq-box1 {
@@ -625,13 +653,6 @@ main input[type=submit]:hover {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.knap:hover {
-  background-color: #efeae1;
-  border: 3px solid #d47b28;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
 .faq-bunden {
   display: flex;
   justify-content: right;
