@@ -46,12 +46,45 @@ p {
   line-height: 26px;
 }
 
-/*********--Styling af Branding proces--***********/
-/*Branding - hero område */
+.fed {
+  font-weight: 800;
+  padding-bottom: 80px;
+}
+
+/***********---Fælles styling - heor-område---************/
+/*BG-billede - forside, om os og øvringe*/
+/*BG-Forside*/
+.BGforside {
+  background-image: url("../img/BGforside.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/*BG-om os*/
+.BGomos {
+  background-image: url("../img/BGomos.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/*BG-øvringe*/
+.BGandre {
+  background-image: url("../img/Brandingbaggrund.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/*Tekst og illustration*/
 .hero-container {
   display: flex;
   width: 100%;
-  padding: 150px 100px 0 100px;
+  padding: 150px 150px 0 150px;
 }
 
 .hero-tekst h1 {
@@ -65,7 +98,7 @@ p {
   margin-right: 200px;
 }
 
-.brandingimgtop {
+.imgtop {
   width: 150%;
   margin: 0;
 }
@@ -94,8 +127,15 @@ p {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.hero-tekst a:hover {
+  background-color: transparent;
+  border: 3px solid #AD5715;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  color: black;
+}
 
-/* Chevron */
+/*Cheveron*/
 .chevron-container {
   text-align: center;
 }
@@ -103,25 +143,67 @@ p {
   padding: 100px;
 }
 
-/* Branding hovedområde */
-.BGbillede-branding {
-  background-image: url("../img/Brandingbaggrund.png");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  width: 100%;
+/*Chat funktion*/
+.chatfunktion {
+  padding: 20px;
+  position: fixed;
+  top: 90%;
+  left: 93%;
 }
 
-.brodkrommebrand {
+/*Brødkrumme*/
+.brodkromme {
   writing-mode: vertical-lr;
   text-orientation: mixed;
   font-size: 36px;
   position: absolute;
-  height: 360px;
+  height: 160px;
   right: 10%;
   top: 100%;
 }
 
+/*Pil op (i bunden)*/
+.pilop {
+  display: flex;
+  justify-content: right;
+  padding: 100px 20px 20px 0;
+}
+.pilop img {
+  width: 35px;
+}
+
+/*Knap*/
+.knap-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.knap {
+  background-color: #AD5715;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  text-align: center;
+  padding: 13.5px 111px;
+  color: #fff;
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.knap:hover {
+  background-color: transparent;
+  border: 3px solid #AD5715;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  color: black;
+}
+
+/*********-- Styling af Forsiden --*********/
+/*********--Styling af Branding proces--***********/
+/* Branding hovedområde */
 .branding-container-venstre {
   display: grid;
   width: 75%;
@@ -199,60 +281,8 @@ p {
   text-align: center;
 }
 
-/*pil op*/
-.pilop {
-  display: flex;
-  justify-content: right;
-  padding: 100px 20px 20px 0;
-}
-
-.pilopimg {
-  width: 35px;
-}
-
-/*Kontaktknap*/
-.knap-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
-}
-
-.kontakt {
-  background-color: #AD5715;
-  border-radius: 50px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  text-decoration: none;
-  text-align: center;
-  padding: 13.5px 111px;
-  color: #fff;
-  font-family: "roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 /**********--Styling af Ydelser--***********/
-.BGbillede-ydelser {
-  background-image: url("../img/TopBG.png");
-  background-size: contain;
-  background-position: top;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
-.brodkromme {
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  font-size: 36px;
-  position: absolute;
-  height: 160px;
-  right: 10%;
-  top: 100%;
-}
-
 /*Test på ny kodning*/
-/*Hero område*/
 /*Hovedindhold*/
 .stark-container {
   display: flex;
@@ -398,14 +428,6 @@ p {
 }
 
 /********--Styling af Storytelling--*******/
-.BGbillede-storytelling {
-  background-image: url("../img/TopBG.png");
-  background-size: contain;
-  background-position: top;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
 /* Story tekst billede */
 .hvad-er-storytelling {
   display: flex;
@@ -492,49 +514,7 @@ p {
   text-align: center;
 }
 
-/*Styling af Kontakt siden*/
-.BGtop {
-  background-image: url("../img/BGtop.png");
-  background-size: contain;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-.kontakt-hero-container {
-  display: flex;
-  width: 100%;
-  padding: 150px 100px 0 100px;
-}
-
-.kontakt-hero-tekst h1 {
-  padding-top: 50px;
-  padding-bottom: 80px;
-}
-
-.kontakt-hero-tekst a {
-  text-decoration: none;
-  color: #37476c;
-}
-
-.kontakt-hero-img {
-  width: 100%;
-  display: flex;
-  justify-content: right;
-}
-
-.kontakt-hero-img img {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.chatfunktion {
-  padding: 20px;
-  position: fixed;
-  top: 90%;
-  left: 93%;
-}
-
+/**********---Styling af Kontakt siden---*************/
 .kontaktform {
   display: flex;
   justify-content: space-between;
@@ -613,11 +593,7 @@ main input[type=submit]:hover {
   align-items: end;
 }
 
-.pilop {
-  width: 35px;
-}
-
-/*Styling af FAQ siden*/
+/************---Styling af FAQ siden---***************/
 /* dropdown menu */
 .dropdown-box {
   width: 750px;
@@ -677,6 +653,7 @@ main input[type=submit]:hover {
   visibility: visible;
 }
 
+/*informations kasser*/
 .faq-box1 {
   height: 475px;
   background-color: #ffffff;
@@ -691,28 +668,6 @@ main input[type=submit]:hover {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 75px;
-}
-
-.knap {
-  background-color: #AD5715;
-  border-radius: 50px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  text-decoration: none;
-  text-align: center;
-  padding: 13.5px 111px;
-  color: #fff;
-  font-family: "roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.knap:hover {
-  background-color: transparent;
-  border: 3px solid #AD5715;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-  color: black;
 }
 
 .faq-bunden {
