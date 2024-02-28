@@ -71,10 +71,19 @@ p {
   width: 100%;
 }
 
-/*BG-øvringe*/
-.BGandre {
+/*BG-Branding*/
+.BGbranding {
   background-image: url("../img/Brandingbaggrund.png");
   background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/*BG-øvringe*/
+.BGandre {
+  background-image: url("../img/BGtop.png");
+  background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
   width: 100%;
@@ -155,10 +164,10 @@ p {
 .brodkromme {
   writing-mode: vertical-lr;
   text-orientation: mixed;
-  font-size: 36px;
+  font-size: 26px;
   position: absolute;
-  height: 160px;
-  right: 10%;
+  height: 260px;
+  right: 30%;
   top: 100%;
 }
 
@@ -515,6 +524,24 @@ p {
 }
 
 /**********---Styling af Kontakt siden---*************/
+.text p {
+  font-weight: 800;
+}
+
+.text a {
+  color: #37476c;
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0;
+  text-transform: none;
+  font-weight: 500;
+  padding-left: 15px;
+}
+.text a:hover {
+  border: none;
+  font-weight: 800;
+}
+
 .kontaktform {
   display: flex;
   justify-content: space-between;
@@ -642,10 +669,16 @@ main input[type=submit]:hover {
 .faq-dropdown-menu a {
   text-decoration: none;
   color: #37476C;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: none;
+  line-height: 2em;
 }
 
 .faq-dropdown-menu a:hover {
-  background-color: rgba(212, 123, 40, 0.212);
+  background-color: rgba(212, 123, 40, 0.11);
+  border: none;
+  border-radius: 5px;
 }
 
 .faq-dropdown:hover .faq-dropdown-menu {
