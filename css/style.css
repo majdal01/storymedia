@@ -211,6 +211,22 @@ p {
 }
 
 /*********-- Styling af Forsiden --*********/
+/*tekst og billede sektioner*/
+.text-img-sektion {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #F7F1E6;
+  height: 650px;
+}
+
+.txt {
+  grid-column: 1/4;
+}
+
+.foto {
+  grid-column: 4/6;
+}
+
 /*Instagram karrusel*/
 .karrusel-box {
   height: 688px;
