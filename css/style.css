@@ -594,7 +594,11 @@ p {
   text-transform: uppercase;
 }
 .hvorfor-storytelling ul {
-  padding: 4em 0;
+  padding: 1em 0 4em 0;
+}
+.hvorfor-storytelling h4 {
+  padding-top: 1.5em;
+  font-weight: 400;
 }
 
 .case {
@@ -605,18 +609,27 @@ p {
   border-bottom: none;
 }
 
-.storytekstbillede {
-  display: flex;
-  width: 100%;
-  margin-bottom: 70px;
+.case-wrapper {
+  display: grid;
+  grid-template-columns: repeat(22em 1fr 22em);
 }
-.storytekstbillede article {
-  padding: 2em 6em;
+.case-wrapper .tekst-venstre {
+  grid-column: 1/3;
+  padding: 0 4em 0 6em;
 }
-.storytekstbillede img {
-  max-width: 25%;
-  height: auto;
-  aspect-ratio: 16/9;
+.case-wrapper .billede-hojre {
+  grid-column: 3/4;
+  max-width: 100%;
+  justify-self: end;
+  align-self: center;
+}
+.case-wrapper .billede-venstre {
+  grid-column: 1/2;
+  max-width: 100%;
+}
+.case-wrapper .tekst-hojre {
+  grid-column: 3/4;
+  padding: 0 6em 0 4em;
 }
 
 .wooddesignoverskrift {
@@ -627,9 +640,6 @@ p {
 
 .beigekasse {
   background-color: #F7F1E6;
-  width: 70%;
-  position: relative;
-  right: 0;
 }
 
 .beigeborder {
