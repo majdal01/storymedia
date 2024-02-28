@@ -25,7 +25,7 @@ $font: "roboto", sans-serif;
 
 @mixin btn-hover{
         background-color: transparent;
-        border: 3px solid partial.$secondary-color;
+        border: 3px solid $secondary-color;
         transition: 0.3s ease-in-out;
         cursor: pointer;
 }

@@ -81,7 +81,7 @@ p {
 }
 
 .hero-tekst a {
-  background-color: #d47b28;
+  background-color: #AD5715;
   border-radius: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
@@ -218,7 +218,7 @@ p {
 }
 
 .kontakt {
-  background-color: #d47b28;
+  background-color: #AD5715;
   border-radius: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
@@ -274,7 +274,7 @@ p {
 }
 
 .vis-et {
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   width: 50%;
   padding: 70px 150px;
   display: flex;
@@ -283,7 +283,7 @@ p {
 }
 
 .vis-to {
-  border: 7px solid #efeae1;
+  border: 7px solid #F7F1E6;
   border-right: none;
   width: 50%;
   padding: 70px 150px;
@@ -337,7 +337,7 @@ p {
 
 /*Hjemmesidekasser*/
 .orangebaggrundydelser {
-  background-color: #d47b28;
+  background-color: #AD5715;
   width: 100%;
   height: 62.2vh;
   position: absolute;
@@ -356,7 +356,7 @@ p {
 }
 
 .hjemmesidekasse {
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   height: 900px;
   padding: 6%;
 }
@@ -377,7 +377,7 @@ p {
 
 /*Seperatorlinje*/
 .seperatorbeige {
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   height: 7px;
   border: none;
 }
@@ -419,7 +419,7 @@ p {
 }
 
 .hvorfor-storytelling {
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   padding: 4em 6em;
 }
 .hvorfor-storytelling li {
@@ -430,7 +430,7 @@ p {
   color: #37476c;
 }
 .hvorfor-storytelling a {
-  background-color: #d47b28;
+  background-color: #AD5715;
   border-radius: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
@@ -448,10 +448,10 @@ p {
 }
 
 .case {
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   margin: 4em 0;
   padding: 3em 6em 1em 6em;
-  border: 7px solid #d47b28;
+  border: 7px solid #AD5715;
   border-bottom: none;
 }
 
@@ -476,14 +476,14 @@ p {
 }
 
 .beigekasse {
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   width: 70%;
   position: relative;
   right: 0;
 }
 
 .beigeborder {
-  border: 7px solid #efeae1;
+  border: 7px solid #F7F1E6;
   border-right: none;
   border-left: none;
 }
@@ -554,7 +554,7 @@ p {
 .kontaktformular {
   height: 875px;
   width: 630px;
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   border-radius: 20px 0 0 20px;
   font-family: "roboto", sans-serif;
   font-size: 20px;
@@ -569,7 +569,7 @@ p {
 main input[type=navn], input[type=email], input[type=tel], select, textarea {
   width: 100%;
   padding: 1em;
-  border: 1px solid #d47b28;
+  border: 1px solid #AD5715;
   border-radius: 4px;
   margin-top: 0.5em;
   margin-bottom: 1em;
@@ -578,14 +578,14 @@ main input[type=navn], input[type=email], input[type=tel], select, textarea {
 main input[type=text], select, textarea {
   width: 100%;
   padding: 8em;
-  border: 1px solid #d47b28;
+  border: 1px solid #AD5715;
   border-radius: 4px;
   margin-top: 0.5em;
   margin-bottom: 3em;
 }
 
 main input[type=submit] {
-  background-color: #d47b28;
+  background-color: #AD5715;
   border-radius: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
@@ -601,8 +601,8 @@ main input[type=submit] {
   margin-left: 100px;
 }
 main input[type=submit]:hover {
-  background-color: #efeae1;
-  border: 3px solid #d47b28;
+  background-color: #F7F1E6;
+  border: 3px solid #AD5715;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -687,14 +687,14 @@ main input[type=submit]:hover {
 
 .faq-box2 {
   height: 475px;
-  background-color: #efeae1;
+  background-color: #F7F1E6;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 75px;
 }
 
 .knap {
-  background-color: #d47b28;
+  background-color: #AD5715;
   border-radius: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-decoration: none;
@@ -707,6 +707,13 @@ main input[type=submit]:hover {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.knap:hover {
+  background-color: transparent;
+  border: 3px solid #AD5715;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 .faq-bunden {
   display: flex;
   justify-content: right;
