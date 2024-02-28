@@ -93,7 +93,7 @@ p {
 .hero-container {
   display: flex;
   width: 100%;
-  padding: 150px 150px 0 150px;
+  padding: 8em 9em 0 9em;
 }
 
 .hero-tekst h1 {
@@ -149,7 +149,7 @@ p {
   text-align: center;
 }
 .chevron-container img {
-  padding: 100px;
+  padding: 6em;
 }
 
 /*Chat funktion*/
