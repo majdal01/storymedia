@@ -87,7 +87,7 @@ p {
   text-decoration: none;
   text-align: center;
   padding: 13.5px 111px;
-  color: black;
+  color: #fff;
   font-family: "roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -224,7 +224,7 @@ p {
   text-decoration: none;
   text-align: center;
   padding: 13.5px 111px;
-  color: black;
+  color: #fff;
   font-family: "roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -436,7 +436,7 @@ p {
   text-decoration: none;
   text-align: center;
   padding: 13.5px 111px;
-  color: black;
+  color: #fff;
   font-family: "roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -591,7 +591,7 @@ main input[type=submit] {
   text-decoration: none;
   text-align: center;
   padding: 13.5px 111px;
-  color: black;
+  color: #fff;
   font-family: "roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -700,7 +700,7 @@ main input[type=submit]:hover {
   text-decoration: none;
   text-align: center;
   padding: 13.5px 111px;
-  color: black;
+  color: #fff;
   font-family: "roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
