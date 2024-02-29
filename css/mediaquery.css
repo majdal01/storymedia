@@ -22,6 +22,8 @@ p{
 
 /*globalt*/
 
+
+
 .hero-container{
     padding: 4em 3em 6em 3em;
 }
@@ -53,6 +55,7 @@ p{
 }
 
     /********--Branding Proces--******/
+
 
 .BGbranding{
     background-image: url(../img/BGtop.png);
@@ -88,6 +91,8 @@ p{
 
 @media screen and (max-width: 450px){
 
+/*Globale varianter*/
+
     h1, h2{
         font-size: 38px;
     }
@@ -103,4 +108,82 @@ p{
     p{
         font-size: 18px;
     }
+
+
+/*globalt*/
+
+.header2{
+    position: fixed;
+    left: 64%;
+}
+
+.menu{
+    font-size: 25px;
+}
+
+.brodkromme{
+    font-size: 18px;
+    right: 1%;
+    top: 100%;
+ }
+
+.kontaktikon, .sog, .sogefelt{
+    display: none;
+}
+
+.hero-container{
+    padding: 4em 3em 4em 3em;
+    flex-direction: column;
+}
+
+.hero-img{
+    justify-content: center;
+    width: 120%;
+    margin: 4em 1em;
+}
+
+
+
+/*******---Branding proces--*******/
+
+.BGbranding{
+    background-image: url('../img/Brandingbaggrund.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.branding-container-venstre{
+    display: flex;
+    flex-direction: column;
+}
+
+.branding-container-venstre section{
+    border-radius: 0 50px 0 0;
+    border-left: none;
+    padding: 2em 2em 2em 3em;
+}
+
+.branding-container-hojre{
+    display: flex;
+    flex-direction: column;
+}
+
+.branding-container-hojre section{
+    border-right: none;
+    border-radius: 50px 0 0 0;
+    padding: 2em 3em 2em 2em;
+}
+
+.branding-img-bokse-venstre img{
+    border-radius: 0 0 45px 0;
+}
+
+.branding-img-bokse-hojre img{
+    border-radius: 0 0 0 45px;
+}
+
+
+
 }
