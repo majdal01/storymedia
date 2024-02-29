@@ -634,6 +634,7 @@ p{
         .tekst-venstre{
             grid-column: 1/3;
             padding: 4em 4em 4em 6em;
+            object-fit: contain;
         }
 
         .billede-hojre{
@@ -645,18 +646,24 @@ p{
 
         .billede-venstre{
             grid-column: 1/2;
-            max-width: 100%;
-            padding: 4em 2em 3em 0;
-            justify-self: left;
+            display: grid;
+            grid-column: auto;
+            object-fit: cover;
+            aspect-ratio: 1/1;
+            width: 100%;
+            height: auto;
+            align-self: center;
+            padding: 2em 0;
         }
 
         .tekst-hojre{
             grid-column: 3/4;
-            padding: 4em 6em 0 2em;
+            padding: 4em 6em 0 4em;
         }
 
 
 }
+
 
 .wooddesignoverskrift{
     font-size: 30px;
@@ -693,10 +700,7 @@ p{
         }
 }
 
-.img-just{
-    width: 100%;
-    height: auto;
-}
+
 
 .nysgerrigstory{
     text-align: center;
