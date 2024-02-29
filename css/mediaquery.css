@@ -22,7 +22,20 @@ p{
 
 /*globalt*/
 
+.header2{
+    position: fixed;
+    left: 93%;
+}
 
+.menu{
+    font-size: 40px;
+}
+
+.brodkromme{
+    font-size: 22px;
+    right: 10%;
+    top: 100%;
+ }
 
 .hero-container{
     padding: 4em 3em 6em 3em;
