@@ -4,6 +4,7 @@
 
 h1, h2{
     font-size: 45px;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -18,11 +19,30 @@ p{
     font-size: 20px;
 }
 
+/*globalt*/
+
+.hero-container{
+    padding: 4em 3em 0 3em;
+}
+
+
 
     /********--Branding Proces--******/
 
-
+.BGbranding{
+    background-size: contain;
+    
 }
+
+.branding-container-venstre section{
+    padding: 0 2em 0 4em ;
+}
+
+.branding-container-hojre section{
+    padding: 0 4em 0 3em ;
+}
+
+ }
 
 @media screen and (max-width: 450px){
 
