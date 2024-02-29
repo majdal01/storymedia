@@ -23,15 +23,29 @@ p{
 /*globalt*/
 
 .hero-container{
-    padding: 4em 3em 0 3em;
+    padding: 4em 3em 6em 3em;
+}
+
+.hero-tekst h1{
+    padding-bottom: 1em;
+}
+
+.hero-tekst .knap{
+    font-size: 18px;
+    padding: 13.5px 4em;
 }
 
 .knap{
     font-size: 18px;
+    padding: 13.5px 4em;
 }
 
 .hero-gap-til-knap{
-    padding-bottom: 50px;
+    padding-bottom: 3em;
+}
+
+.chevron-container{
+    display: none;
 }
 
 .footergrid{
