@@ -795,23 +795,20 @@ p{
 
 /*Specialisering*/
 .special{
+    margin-top: 50px;
     margin-bottom: 100px;
-}
-
-.beige-box1{
-    display: flex;
-    justify-content: center;
-}
-.special{
     text-align: center;
 
         .beige-box{
             background-color: partial.$primary-color;
-            width: 600px;
-            height: 650px;
-            padding: 100px 20px 0 20px ;
+            padding: 100px 40px 0 20px ;
             border: 7px solid partial.$bg-color;
         }
+}
+
+.beige-box1{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /*Start up + pynt (billede på billede)*/
@@ -829,13 +826,13 @@ p{
     z-index: 1;
 }
 
-.ourstory{
+.omos-sektion{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 200px;
 }
 
-.story-os{
+.omos-logo-txt{
     grid-column: 1/3;
     border: 7px solid partial.$primary-color;
 
