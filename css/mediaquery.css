@@ -1,10 +1,11 @@
+/*********--Tablet--*********/
+
 @media screen and (max-width: 900px){
 
 /*Globale variabler*/
 
 h1, h2{
     font-size: 45px;
-    padding-bottom: 10px;
 }
 
 h3{
@@ -25,13 +26,35 @@ p{
     padding: 4em 3em 0 3em;
 }
 
+.knap{
+    font-size: 18px;
+}
 
+.hero-gap-til-knap{
+    padding-bottom: 50px;
+}
+
+.footergrid{
+    grid-template-columns: 50px 180px 1fr 200px 50px;
+}
 
     /********--Branding Proces--******/
 
 .BGbranding{
+    background-image: url(../img/BGtop.png);
     background-size: contain;
-    
+}
+
+.brandingroad{
+    background-image: url(../img/Road.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0px 22em;
+    width: 100%;
+}
+
+.branding-container-venstre, .branding-container-hojre{
+    margin-bottom: 5em;
 }
 
 .branding-container-venstre section{
@@ -43,6 +66,11 @@ p{
 }
 
  }
+
+
+/********--Mobil--********/
+
+
 
 @media screen and (max-width: 450px){
 

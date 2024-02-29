@@ -37,6 +37,22 @@ $font: "roboto", sans-serif;
     background-color: $primary-color;
 }
 
+/*Tablet*/
+
+@mixin tablet-btn{
+    background-color: $secondary-color;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    text-align: center;
+    padding: 13.5px 111px;
+    color: #fff;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
 /*Mobil*/
 

@@ -531,6 +531,13 @@ p{
 
 /*********--Styling af Branding proces--***********/
 
+@media screen and (max-width:900px){
+    .knap{
+        @include partial.tablet-btn;
+    }
+}
+
+
 /* Branding hovedområde */
 .branding-container-venstre{
     display: grid;
