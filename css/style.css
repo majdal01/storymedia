@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* Variabler*/
 /*Mixins*/
-/*Tablet*/
 /*Mobil*/
 /*Generel styling*/
 * {
@@ -381,27 +380,28 @@ p {
 
 /*Visuelle pakker*/
 .vispakker-container {
-  display: flex;
-  margin-top: 5em;
-  margin-bottom: 7em;
-  height: 95vh;
+  position: relative;
+  margin: 4em 0;
 }
 .vispakker-container .vis-et {
   background-color: #F7F1E6;
-  width: 50%;
-  padding: 4em 9em;
+  padding: 4em 14em;
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
+  top: 0;
+  margin: 4em 0 4em 2em;
 }
 .vispakker-container .vis-to {
   border: 7px solid #F7F1E6;
-  border-right: none;
-  width: 50%;
-  padding: 4em 9em;
+  width: 55%;
+  padding: 4em 6em 0 16em;
   display: flex;
   flex-direction: column;
   position: relative;
+  float: right;
+  margin-right: 4em;
+  margin-bottom: 4em;
 }
 .vispakker-container h3 {
   font-size: 30px;
@@ -413,10 +413,20 @@ p {
 .vis-et h2, .vis-to h2 {
   padding: 0;
 }
+.vis-et h3, .vis-to h3 {
+  padding-bottom: 0.2em;
+}
 .vis-et .p-opacity-pakker, .vis-to .p-opacity-pakker {
   opacity: 50%;
   letter-spacing: 5%;
   padding-bottom: 1.5em;
+}
+.vis-et ul, .vis-to ul {
+  padding-bottom: 6em;
+}
+
+.vis-to ul {
+  padding-bottom: 10em;
 }
 
 .kontakt-visuel-container {
@@ -519,22 +529,6 @@ p {
 }
 
 /*********--Styling af Branding proces--***********/
-@media screen and (max-width: 900px) {
-  .knap {
-    background-color: #AD5715;
-    border-radius: 50px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    text-decoration: none;
-    text-align: center;
-    padding: 13.5px 111px;
-    color: #fff;
-    font-family: "roboto", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-}
 /* Branding hovedområde */
 .branding-container-venstre {
   display: grid;

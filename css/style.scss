@@ -371,28 +371,30 @@ p{
 /*Visuelle pakker*/
 
  .vispakker-container{
-    display: flex;
-    margin-top: 5em;
-    margin-bottom: 7em;
-    height: 95vh;
+    position: relative;
+    margin: 4em 0;
 
     .vis-et{
         background-color: partial.$primary-color;
-        width: 50%;
-        padding: 4em 9em;
+       
+        padding: 4em 14em;
         display: flex;
         flex-direction: column;
-        position: relative;
+        position: absolute;
+        top: 0;
+        margin: 4em 0 4em 2em;
      }
 
      .vis-to{
         border: 7px solid partial.$primary-color;
-        border-right: none;
-        width: 50%;
-        padding: 4em 9em;
+        width: 55%;
+        padding: 4em 6em 0 16em;
         display: flex;
         flex-direction: column;
         position: relative;
+        float: right;
+        margin-right: 4em;
+        margin-bottom: 4em;
      }
 
      h3{
@@ -409,12 +411,25 @@ p{
         padding: 0;
     }
 
+    h3{
+        padding-bottom: 0.2em;
+    }
+
     .p-opacity-pakker{
         opacity: 50%;
         letter-spacing: 5%;
         padding-bottom: 1.5em;
      }
     
+     ul{
+        padding-bottom: 6em;
+     }
+ }
+
+ .vis-to{
+    ul{
+        padding-bottom: 10em;
+    }
  }
 
  .kontakt-visuel-container{
@@ -530,13 +545,6 @@ p{
 
 
 /*********--Styling af Branding proces--***********/
-
-@media screen and (max-width:900px){
-    .knap{
-        @include partial.tablet-btn;
-    }
-}
-
 
 /* Branding hovedområde */
 .branding-container-venstre{
