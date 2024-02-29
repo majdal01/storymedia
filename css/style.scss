@@ -49,6 +49,9 @@ p{
     padding-bottom: 80px;
 }
 
+.italicfont{
+    font-style: italic;
+}
 /***********---Fælles styling - heor-område---************/
 
 /*BG-billede - forside, om os og øvringe*/
@@ -732,7 +735,10 @@ p{
         }
 }
 
-
+.fingertekst{
+    padding-top: 2em;
+    text-align: center;
+}
 
 .nysgerrigstory{
     text-align: center;
@@ -843,7 +849,7 @@ p{
 
 .veardi{
     grid-column: 3/4;
-    background-color: pratial.$primary-color;
+    background-color: partial.$primary-color;
 }
 
 

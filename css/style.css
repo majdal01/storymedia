@@ -51,6 +51,10 @@ p {
   padding-bottom: 80px;
 }
 
+.italicfont {
+  font-style: italic;
+}
+
 /***********---Fælles styling - heor-område---************/
 /*BG-billede - forside, om os og øvringe*/
 /*BG-Forside*/
@@ -710,6 +714,11 @@ p {
   width: 75%;
 }
 
+.fingertekst {
+  padding-top: 2em;
+  text-align: center;
+}
+
 .nysgerrigstory {
   text-align: center;
 }
@@ -769,23 +778,19 @@ p {
 
 /*Specialisering*/
 .special {
+  margin-top: 50px;
   margin-bottom: 100px;
-}
-
-.beige-box1 {
-  display: flex;
-  justify-content: center;
-}
-
-.special {
   text-align: center;
 }
 .special .beige-box {
   background-color: #F7F1E6;
-  width: 600px;
-  height: 650px;
-  padding: 100px 20px 0 20px;
+  padding: 100px 40px 0 20px;
   border: 7px solid #ffffff;
+}
+
+.beige-box1 {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /*Start up + pynt (billede på billede)*/
@@ -803,18 +808,23 @@ p {
   z-index: 1;
 }
 
-.startup-os {
+.omos-sektion {
   display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 200px;
 }
 
-.story-os {
+.omos-logo-txt {
   grid-column: 1/3;
+  border: 7px solid #F7F1E6;
+}
+.omos-logo-txt img {
+  width: 500px;
 }
 
 .veardi {
   grid-column: 3/4;
+  background-color: #F7F1E6;
 }
 
 /**********---Styling af Kontakt siden---*************/
