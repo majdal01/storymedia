@@ -18,6 +18,16 @@ h5{
     line-height: 30px;
 }
 
+/*Interne links*/
+
+.internlinks{
+    color: #37476C;
+}
+
+.internlinks:hover{
+    color: #AD5715;
+}
+
 /*Header*/
 
 .headerlogo{
