@@ -372,11 +372,14 @@ p {
   align-self: center;
   margin: auto 100px;
   gap: 6em;
-  height: 40vw;
+  width: 100%;
+}
+.stark-container article {
+  padding-right: 9em;
 }
 
 .stark-img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 

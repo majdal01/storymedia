@@ -77,7 +77,13 @@ p{
 }
 
 .stark-container img{
-    margin-top: 2em;
+    margin-top: 1em;
+    width: 40%;
+    height: auto;
+}
+
+.stark-container article{
+    padding-right: 3em;
 }
 
 .vispakker-container .vis-et {
@@ -105,7 +111,7 @@ p{
 .knap-tablet{
         padding: 13.5px 2em;
     }
-}
+
 
     /********--Branding Proces--******/
 
@@ -271,6 +277,27 @@ p{
 .mailikon, .telefonikon-footer{
     padding-left: 0.2em;
 }
+
+/********--Ydelser--*********/
+
+.ydelser-hero-img{
+    margin-left: 0;
+}
+
+.ydelser-hero-img img{
+    margin-right: 3em;
+}
+
+.stark-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.vispakker-container{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*******---Branding proces--*******/
 
