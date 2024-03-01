@@ -71,8 +71,9 @@ p{
 
 
 .BGbranding{
-    background-image: url(../img/BGtop.png);
+    background-image: url(../img/BG-road-tablet.png);
     background-size: contain;
+    width: 100%;
 }
 
 .brandingroad{
@@ -160,7 +161,7 @@ p{
 /*******---Branding proces--*******/
 
 .BGbranding{
-    background-image: url('../img/Brandingbaggrund.png');
+    background-image: url('../img/Road-mobil.png');
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
