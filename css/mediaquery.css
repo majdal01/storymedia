@@ -72,7 +72,7 @@ p{
 
 .BGbranding{
     background-image: url(../img/BG-road-tablet.png);
-    background-size: contain;
+    background-size: conver;
     width: 100%;
 }
 
