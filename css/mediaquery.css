@@ -1,3 +1,5 @@
+
+
 /*********--Tablet--*********/
 
 @media screen and (max-width: 900px){
@@ -128,7 +130,7 @@ p{
 
 .header2{
     position: fixed;
-    left: 64%;
+    left: 85%;
 }
 
 .menu{
@@ -156,16 +158,57 @@ p{
     margin: 4em 1em;
 }
 
+/********---Footer mobil---******/
+
+.footer-mobil{
+    display: block;
+}
 
 .footer-tablet-desktop{
     display: none;
 }
 
 .footer-mobil{
-        
-
+    background-color: #F7F1E6;
+    width: 100%;
 }
 
+.footer-logo-placering{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.footer-mobil-logo{
+    width: 40%;
+}
+
+.footer-nav-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footernav{
+    grid-column: 1/2;
+    margin-left: 2em;
+}
+
+.someplacering{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-right: 2em;
+}
+
+.footerform{
+    margin-left: 2em;
+}
+
+form{
+    display: flex;
+}
 
 /*******---Branding proces--*******/
 

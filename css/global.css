@@ -281,3 +281,7 @@ footer input[type=email]{
     align-items: center;
     height: 40px;
 }
+
+.footer-mobil{
+    display: none;
+}
