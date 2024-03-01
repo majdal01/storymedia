@@ -144,7 +144,53 @@ p{
 
  }
 
+/************--Storytelling--**********/
 
+.hvad-er-storytelling{
+    height: 500px;
+}
+
+.baalsted{
+    width: 20%;
+    height: 50%;
+    align-self: center;
+}
+
+.hvorfor-storytelling{
+    padding: 4em;
+}
+
+.case{
+    padding: 4em;
+}
+
+.case-wrapper{
+    padding-bottom: 0;
+}
+
+.case-wrapper .tekst-venstre{
+    padding: 2em 3em 2em 4em;
+}
+
+.case-wrapper .tekst-hojre{
+    padding: 3em 3.5em 2em 2em;
+}
+
+.case-wrapper .billede-venstre{
+    aspect-ratio: 1/2;
+}
+
+.case-wrapper .illu-grid{
+    padding: 2em 3em 2em 2em;
+    
+}
+
+.case-wrapper .beigeborder{
+    height: 100%;
+}
+
+
+/*-----------------------*/
 /********--Mobil--********/
 
 
