@@ -389,6 +389,7 @@ p{
         position: absolute;
         top: 0;
         margin: 4em 0 4em 2em;
+        z-index: 1;
      }
 
      .vis-to{
@@ -538,11 +539,17 @@ p{
  .specifikke{
     display: flex;
     justify-content: space-around;
-    padding: 5em 6em;
+    padding: 4em 6em;
+    width: 100%;
 
         article{
             padding-right: 50px;
         }
+ }
+
+ .spec-img{
+    width: 100%;
+    height: auto;
  }
 
  .specafstand{

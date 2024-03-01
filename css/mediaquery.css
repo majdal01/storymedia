@@ -80,9 +80,32 @@ p{
     margin-top: 2em;
 }
 
+.vispakker-container .vis-et {
+    padding: 4em 6em;
+}
 
+.vispakker-container .vis-to{
+    padding: 4em 4em 0 10em;
+}
 
+.specifikke {
+    width: 900px;
+    padding: 2em 3em;
+}
 
+.spec-img{
+    width: 50%;
+    height: auto;
+}
+
+.specifikke p{
+    padding-bottom: 0.5em;
+}
+
+.knap-tablet{
+        padding: 13.5px 2em;
+    }
+}
 
     /********--Branding Proces--******/
 

@@ -398,6 +398,7 @@ p {
   position: absolute;
   top: 0;
   margin: 4em 0 4em 2em;
+  z-index: 1;
 }
 .vispakker-container .vis-to {
   border: 7px solid #F7F1E6;
@@ -525,10 +526,16 @@ p {
 .specifikke {
   display: flex;
   justify-content: space-around;
-  padding: 5em 6em;
+  padding: 4em 6em;
+  width: 100%;
 }
 .specifikke article {
   padding-right: 50px;
+}
+
+.spec-img {
+  width: 100%;
+  height: auto;
 }
 
 .specafstand {
