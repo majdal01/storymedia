@@ -291,11 +291,35 @@ p{
 .stark-container{
     display: flex;
     flex-direction: column;
+    
+}
+
+.stark-img{
+    width: 100%;
+    order: 2;
 }
 
 .vispakker-container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: ;
+    margin-bottom: 0;
+}
+
+.vispakker-container .vis-et{
+    grid-row: 1/2;
+    position: relative;
+    margin: 0;
+    padding-left: 9em;   
+}
+
+.vispakker-container .vis-to{
+    grid-row: 2/3;
+    width: 100%;
+    padding-left: 9em;
+}
+
+.hjemmesidetekst{
+    padding: 0 2em 2em 2em;
 }
 
 
