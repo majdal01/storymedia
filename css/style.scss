@@ -359,9 +359,16 @@ p{
 
  .stark-container{
     display: flex;
+    align-self: center;
     margin: auto 100px;
-    gap: 100px;
+    gap: 6em;
+    height: 40vw;
  }
+
+.stark-img{
+    max-width: 100%;
+    height: auto;
+}
 
  .overoverskrift{
     font-weight: 100;
@@ -376,7 +383,6 @@ p{
 
     .vis-et{
         background-color: partial.$primary-color;
-       
         padding: 4em 14em;
         display: flex;
         flex-direction: column;

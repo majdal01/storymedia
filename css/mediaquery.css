@@ -69,6 +69,21 @@ p{
     grid-template-columns: 50px 180px 1fr 200px 50px;
 }
 
+/********--Ydelser--**********/
+
+.stark-container{
+   margin: 2em 2em;
+   gap: 1.7em;
+}
+
+.stark-container img{
+    margin-top: 2em;
+}
+
+
+
+
+
     /********--Branding Proces--******/
 
 
