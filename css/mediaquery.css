@@ -204,6 +204,10 @@ p{
 
 /********---Footer mobil---******/
 
+footer{
+    display: none;
+}
+
 .footer-mobil{
     display: block;
 }
@@ -320,6 +324,62 @@ p{
 
 .hjemmesidetekst{
     padding: 0 2em 2em 2em;
+}
+
+.hjemmesidekasse-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.hjemmesidekasse-container section{
+    height: 645px;
+}
+
+.hjemmesidekasse-container ul{
+    padding-left: 4em;
+}
+
+.linjeydelser{
+    margin: 1em 0 2em 0;
+}
+
+.orangebaggrundydelser{
+    height: 42.2vh;
+}
+
+.orangebaggrundydelser-mobilet{
+    background-color:#AD5715;
+    width: 100%;
+    height: 42.2vh;
+    position: absolute;
+    z-index: -2;
+    top: 550vh;
+}
+
+.orangebaggrundydelser-mobilto{
+    background-color:#AD5715;
+    width: 100%;
+    height: 42.2vh;
+    position: absolute;
+    z-index: -2;
+    top: 642vh;
+}
+
+.specifikke{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3em 3em;
+    width: 450px;
+}
+
+.specifikke article{
+    padding: 0;
+}
+
+.spec-img{
+    padding-bottom: 2em;
+    width: 100%;
 }
 
 
