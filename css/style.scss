@@ -922,23 +922,26 @@ p{
 
 
 /**********---Styling af Kontakt siden---*************/
-.text p{
-    font-weight: 800;
-}
+.text{
+    
+    p{
+        font-weight: 800;
+    }
 
-.text a{
-    color: partial.$text-color;
-    background-color: transparent;
-    box-shadow: none;
-    padding: 0;
-    text-transform: none;
-    font-weight: 500;
-    padding-left: 15px;
-
-        &:hover{
-            border: none;
-            font-weight: 800;
-        }
+    a{
+        color: partial.$text-color;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+        text-transform: none;
+        font-weight: 500;
+        padding-left: 15px;
+    
+            &:hover{
+                border: none;
+                font-weight: 800;
+            }
+    }
 }
 
 
@@ -946,7 +949,7 @@ p{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 150px 0 0 100px;
+    padding: 100px 0 0 100px;
 }
 
 .kontaktinformation{
@@ -967,7 +970,6 @@ p{
     font-size: 20px;
     text-transform: uppercase;
     color: partial.$text-color;
-    letter-spacing: 5%;
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 80px;

@@ -24,6 +24,7 @@ p{
 
 /*globalt*/
 
+
 .header2{
     position: fixed;
     left: 93%;
@@ -195,6 +196,30 @@ p{
 /***************--Om story Media--**************/
 
 /*************--Kontakt-side--***************/
+
+.kontaktform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 4em 0 4em;
+    
+}
+
+.kontaktinformation{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 70px;
+        h1{
+            padding-bottom: 50px;
+        }
+}
+
+.kontaktformular{
+    border-radius: 20px;
+    margin: 0;
+}
 
 /**************--FAQ-side--**************/
 
@@ -556,6 +581,34 @@ footer{
 /***************--Om story Media--**************/
 
 /*************--Kontakt-side--***************/
+
+.kontaktform{
+    margin: 0 1em 0 1em;
+}
+
+.kontaktformular{
+    height: auto;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 40px 20px 40px 20px;
+}
+
+main input[type=text], select, textarea {
+	padding: 6.5em;
+	margin-bottom: 1em;
+}
+
+.kontaktformular input[type=submit]{
+    width: 70%;
+    font-size: 16px;
+    padding: 13.5px 4em;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 40px;
+    text-align: center;
+} 
+
 
 /**************--FAQ-side--**************/
 
