@@ -28,6 +28,25 @@ h5{
     color: #AD5715;
 }
 
+/*Chat funktion*/
+.chatfunktion{
+    padding: 20px;
+    position: fixed;
+    top: 90%;
+    left: 93%;
+}
+
+/*Brødkrumme*/
+.brodkromme{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 26px;
+    position: absolute;
+    height: 260px;
+    right: 30%;
+    top: 100%;
+ }
+
 /*Header*/
 
 .headerlogo{
@@ -79,7 +98,7 @@ h5{
 .header2{
     position: fixed;
     left: 95.5%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .menu{
@@ -138,7 +157,7 @@ h5{
 
 /*Footer*/
 .seperator{
-    border: black solid 1 px;
+    border: black solid 1px;
 }
 
 /*justering af ikon størrelser*/
