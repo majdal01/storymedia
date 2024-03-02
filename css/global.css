@@ -79,6 +79,7 @@ h5{
 .header2{
     position: fixed;
     left: 95.5%;
+    z-index: 1;
 }
 
 .menu{

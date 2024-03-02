@@ -54,16 +54,7 @@ p{
 }
 /***********---Fælles styling - heor-område---************/
 
-/*BG-billede - forside, om os og øvringe*/
-    /*BG-Forside*/
-        .BGforside{
-            background-image: url('../img/BGforside.png');
-            background-size: contain;
-            background-position: top;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-
+/*BG-billeder*/
     /*BG-om os*/
         .BGomos{
             background-image: url('../img/BGomos.png');
@@ -134,6 +125,8 @@ p{
 /*Cheveron*/
 .chevron-container{
     text-align: center;
+    position: relative;
+    z-index: 1;
 
         img{
             padding: 6em;
@@ -191,6 +184,9 @@ p{
 /*********-- Styling af Forsiden --*********/
 
 /*hero-sektion*/
+.headerforside{
+    background-color: partial.$primary-color;
+}
 
 .hero-section {
     display: flex;
@@ -200,6 +196,7 @@ p{
     height: 100vh;
     overflow: hidden;
     position: relative;
+    background-color: partial.$primary-color;
 }
 
 .hero-section video {
@@ -212,7 +209,7 @@ p{
     height: auto;
     z-index: 0;
     transform: translate(-50%, -50%);
-    top: 40;
+    object-fit: cover;
 }
 
 .hero-section .hero-content {
@@ -228,13 +225,37 @@ p{
     justify-content: center;
 }
 
+.BGforside{
+    width: 100%;
+    position: absolute;
+}
+
 /*Branding video*/
 .brandingvideo{
-    text-align: center;
-
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
         h4{
             padding-top: 100px;
             padding-bottom: 70px;
+        }
+
+        h2{
+            padding-bottom: 150px;
+        }
+        .video-container{
+            width: 80%;
+            height: 80%;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid partial.$secondary-color;
+            
+                video{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
         }
 }
 
@@ -325,6 +346,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: partial.$bg-color;
+    border: 7px solid partial.$primary-color;
 }
 
 /*Instagram karrusel*/
@@ -333,24 +356,34 @@ p{
     width: auto;
     background-color: partial.$primary-color;
     margin: 100px 50px 100px 50px;
+
+    h3{
+        text-align: center;
+        padding: 80px;
+    }
+    
+    .karrusel{
+        overflow: hidden;
+        position: relative;
+        display: flex;
+          
+            .slider{
+                width: 100%;
+                padding: 0 40px 0 20px;
+                margin-left: 60px;
+                }
+    } 
 }
 
-.karrusel-box h3{
-    text-align: center;
-    padding: 80px;
-}
-
-.karrusel{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.slider-pil{
     display: flex;
-  }
-  
-  .slider{
-    padding: 0 40px 0 20px;
-    margin-left: 60px;
-  }
+    justify-content: space-between;
+    margin: 20px 30px 0 30px;
+
+        img{
+            width: 33px;
+        }
+}
   
 
 /**********--Styling af Ydelser--***********/

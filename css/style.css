@@ -56,16 +56,7 @@ p {
 }
 
 /***********---Fælles styling - heor-område---************/
-/*BG-billede - forside, om os og øvringe*/
-/*BG-Forside*/
-.BGforside {
-  background-image: url("../img/BGforside.png");
-  background-size: contain;
-  background-position: top;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
+/*BG-billeder*/
 /*BG-om os*/
 .BGomos {
   background-image: url("../img/BGomos.png");
@@ -151,6 +142,8 @@ p {
 /*Cheveron*/
 .chevron-container {
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 .chevron-container img {
   padding: 6em;
@@ -216,6 +209,10 @@ p {
 
 /*********-- Styling af Forsiden --*********/
 /*hero-sektion*/
+.headerforside {
+  background-color: #F7F1E6;
+}
+
 .hero-section {
   display: flex;
   align-items: center;
@@ -224,6 +221,7 @@ p {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  background-color: #F7F1E6;
 }
 
 .hero-section video {
@@ -236,7 +234,8 @@ p {
   height: auto;
   z-index: 0;
   transform: translate(-50%, -50%);
-  top: 40;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .hero-section .hero-content {
@@ -252,13 +251,37 @@ p {
   justify-content: center;
 }
 
+.BGforside {
+  width: 100%;
+  position: absolute;
+}
+
 /*Branding video*/
 .brandingvideo {
-  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .brandingvideo h4 {
   padding-top: 100px;
   padding-bottom: 70px;
+}
+.brandingvideo h2 {
+  padding-bottom: 150px;
+}
+.brandingvideo .video-container {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #AD5715;
+}
+.brandingvideo .video-container video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*Intro/informationstekst*/
@@ -338,6 +361,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
+  border: 7px solid #F7F1E6;
 }
 
 /*Instagram karrusel*/
@@ -347,22 +372,28 @@ p {
   background-color: #F7F1E6;
   margin: 100px 50px 100px 50px;
 }
-
 .karrusel-box h3 {
   text-align: center;
   padding: 80px;
 }
-
-.karrusel {
-  width: 100%;
+.karrusel-box .karrusel {
   overflow: hidden;
   position: relative;
   display: flex;
 }
-
-.slider {
+.karrusel-box .karrusel .slider {
+  width: 100%;
   padding: 0 40px 0 20px;
   margin-left: 60px;
+}
+
+.slider-pil {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px 0 30px;
+}
+.slider-pil img {
+  width: 33px;
 }
 
 /**********--Styling af Ydelser--***********/
