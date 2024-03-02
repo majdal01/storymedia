@@ -70,6 +70,15 @@ p{
     grid-template-columns: 50px 180px 1fr 200px 50px;
 }
 
+.chatfunktion{
+    left: 88%;
+}
+
+.chatfunktion img{
+    width: 70px;
+    height: auto;
+}
+
 /**********--forside--*********/
 
 
@@ -222,8 +231,19 @@ p{
 }
 
 /**************--FAQ-side--**************/
+.BGandre{
+    background-image: url('../img/BGtop.png');
+    width: 100%;
+    height: auto;
+}
 
+.dropdown-box{
+    width: 400px;
+}
 
+.faq-box1, .faq-box2{
+    height: 500px;
+}
 
 }
 
@@ -258,6 +278,7 @@ p{
 .header2{
     position: fixed;
     left: 90%;
+    top: 5%;
 }
 
 .menu{
@@ -275,14 +296,23 @@ p{
 }
 
 .hero-container{
-    padding: 4em 3em 4em 3em;
+    padding: 4em 3em;
     flex-direction: column;
 }
 
 .hero-img{
     justify-content: center;
     width: 120%;
-    margin: 4em 1em;
+    margin: 2em 1em;
+}
+
+.chatfunktion{
+    left: 80%;
+}
+
+.chatfunktion img{
+    width: 50px;
+    height: auto;
 }
 
 /********---Footer mobil---******/
@@ -581,6 +611,9 @@ footer{
 /***************--Om story Media--**************/
 
 /*************--Kontakt-side--***************/
+.text p, .text a{
+    font-size: 16px;
+}
 
 .kontaktform{
     margin: 0 1em 0 1em;
@@ -606,11 +639,23 @@ main input[type=text], select, textarea {
     font-weight: 500;
     margin: 0;
     margin-left: 40px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
 
 
 /**************--FAQ-side--**************/
+.faq-dropdown{
+    display: none;
+}
+
+
+.faq-box1, .faq-box2{
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    height: 100%; 
+}
 
 
 }

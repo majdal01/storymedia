@@ -987,7 +987,7 @@ main input[type=submit]:hover {
 /************---Styling af FAQ siden---***************/
 /* dropdown menu */
 .dropdown-box {
-  width: 750px;
+  width: 520px;
   height: 60px;
   border-radius: 8px;
   background-color: #ffffff;
@@ -1021,7 +1021,7 @@ main input[type=submit]:hover {
   font-family: "roboto", sans-serif;
   font-size: 20px;
   color: #37476C;
-  padding: 10px;
+  padding: 100px;
   white-space: nowrap;
   cursor: pointer;
   list-style: none;
