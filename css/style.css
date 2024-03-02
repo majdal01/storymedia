@@ -845,45 +845,54 @@ p {
 
 /*Specialisering*/
 .special {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 100px;
   text-align: center;
-}
-.special .beige-box {
-  background-color: #F7F1E6;
-  padding: 100px 40px 0 20px;
-  border: 7px solid #ffffff;
 }
 
 .beige-box1 {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 100px;
+}
+.beige-box1 .beige-box {
+  width: 50%;
+  background-color: #F7F1E6;
+  padding: 100px 100px 100px 100px;
+  border: 7px solid #ffffff;
 }
 
 /*Start up + pynt (billede på billede)*/
 .startup-omos {
   position: relative;
-  text-align: center;
-  margin: 200px 0 200px 0;
+  padding: 150px 0 150px 0;
 }
 
 .stregen-fyld {
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 0;
   z-index: 1;
 }
 
+.startup-os-img {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  z-index: 2;
+}
+
+/*opstart*/
 .omos-sektion {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 .omos-logo-txt {
   grid-column: 1/3;
   border: 7px solid #F7F1E6;
+  padding: 50px 50px 50px 50px;
 }
 .omos-logo-txt img {
   width: 500px;
@@ -892,6 +901,7 @@ p {
 .veardi {
   grid-column: 3/4;
   background-color: #F7F1E6;
+  padding: 50px 0 0 30%;
 }
 
 /**********---Styling af Kontakt siden---*************/
@@ -1023,6 +1033,7 @@ main input[type=submit]:hover {
   visibility: hidden;
   transition: opacity 0.5s ease, visibility 0.5s ease;
   position: absolute;
+  z-index: 2;
   background-color: rgb(255, 255, 255);
   font-family: "roboto", sans-serif;
   font-size: 20px;
@@ -1057,8 +1068,15 @@ main input[type=submit]:hover {
   visibility: visible;
 }
 
+.streg-faq {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
 /*informations kasser*/
 .faq-box1 {
+  position: relative;
   height: 475px;
   background-color: #ffffff;
   padding-left: 100px;
