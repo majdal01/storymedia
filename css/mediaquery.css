@@ -753,6 +753,10 @@ footer{
     padding: 3em;
 }
 
+.case-wrapper .bogetrae{
+    padding-left: 0;
+}
+
 .case-wrapper .bark-img-mobil{
     order: 2;
 }
@@ -762,12 +766,12 @@ footer{
     padding: 2em 0;
 }
 
-.case-wrapper .woodmood{
+.case-wrapper .woodfarve .woodmood{
     width: 50%;
     align-self: center;
 }
 
-.case-wrapper .finger-mobil{
+.case-wrapper .woodfarve .finger-mobil{
     width: 50%;
     align-self: center;
 }
