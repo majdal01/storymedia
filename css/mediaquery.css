@@ -580,7 +580,7 @@ footer{
     
 }
 
-.stark-img{
+.stark-container .stark-img{
     width: 100%;
     order: 2;
 }
@@ -635,7 +635,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 550vh;
+    top: 393vh;
 }
 
 .orangebaggrundydelser-mobilto{
@@ -644,7 +644,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 642vh;
+    top: 456vh;
 }
 
 .specifikke{
