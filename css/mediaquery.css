@@ -192,9 +192,8 @@ p{
     height: 500px;
 }
 
-.baalsted{
-    width: 20%;
-    height: 50%;
+.hvad-er-storytelling .baalsted{
+    height: 60%;
     align-self: center;
 }
 
@@ -318,8 +317,8 @@ p{
 
 }
 
-/*-----------------------*/
-/********--Mobil--********/
+/*----------------------------------------------------*/
+/*********************--Mobil--************************/
 
 
 
@@ -721,11 +720,10 @@ footer{
     padding: 0 3em;
 }
 
-.baalsted{
-    width: 100%;
-    height: auto;
-    padding: 0em 0em 2em 3em;
-    margin: 0;
+.hvad-er-storytelling .baalsted{
+    display: block;
+    height: 90%;
+    padding-bottom: 2em;
 }
 
 .hvorfor-storytelling{
