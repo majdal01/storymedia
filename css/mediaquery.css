@@ -219,7 +219,7 @@ p{
 }
 
 .case-wrapper .billede-venstre{
-    aspect-ratio: 1/2;
+    width: 100%;
 }
 
 .case-wrapper .illu-grid{
@@ -227,8 +227,16 @@ p{
     
 }
 
-.case-wrapper .beigeborder{
-    height: 100%;
+.case-wrapper .woodfarve .finger-tablet{
+    width: 100%;
+    padding: 0;
+    padding-right: 2em;
+}
+
+.case-wrapper .woodfarve .woodmood{
+    width: 100%;
+    padding: 0;
+    padding-right: 3em;
 }
 
 /***************--Om story Media--**************/
