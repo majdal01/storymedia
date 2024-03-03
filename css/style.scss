@@ -715,39 +715,36 @@ p{
 .case-wrapper{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    padding-bottom: 4em;
+    margin-bottom: 3em;
 
         .tekst-venstre{
             grid-column: 1/3;
-            padding: 4em 4em 4em 6em;
-            object-fit: contain;
+            padding: 4em 2em 4em 6em;
         }
 
         .billede-hojre{
             grid-column: 3/4;
-            max-width: 100%;
+            width: 100%;
+            height: auto;
             justify-self: end;
             align-self: center;
+            padding: 3em 0 3em 2em;
         }
 
         .billede-venstre{
             grid-column: 1/2;
             display: grid;
             grid-column: auto;
-            object-fit: cover;
-            aspect-ratio: 1/1;
-            width: 100%;
+            width: 80%;
             height: auto;
             align-self: center;
             padding: 2em 0;
         }
 
         .tekst-hojre{
-            grid-column: 3/4;
-            padding: 4em 6em 0 4em;
+            grid-column: 2/4;
+            padding: 4em 6em 0 0em;
         }
-
-
 }
 
 
@@ -772,22 +769,27 @@ p{
 }
 
 .illu-grid{
-    padding: 3em 6em 3em 4em;
+    justify-self: center;
 }
 
 .woodfarve{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3em 6em 3em 4em;
-
-        img{
-            width: 75%;
+    
+        img:nth-of-type(1){
+            width: 60%;
+            padding: 3em 0em 0em 4em;
         }
+
+        img:nth-of-type(2){
+            width: 60%;
+            padding: 0em 0em 3em 4em;
+         }
 }
 
 .fingertekst{
-    padding-top: 2em;
+    padding: 2em 0;
     text-align: center;
 }
 
