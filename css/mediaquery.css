@@ -347,7 +347,7 @@ p{
 
 .header2{
     position: fixed;
-    left: 90%;
+    left: 92%;
     top: 5%;
 }
 
@@ -571,7 +571,8 @@ footer{
 }
 
 .ydelser-hero-img img{
-    margin-right: 3em;
+    margin: 2em 3em 0 0;
+    width: 90%;
 }
 
 .stark-container{
@@ -635,7 +636,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 393vh;
+    top: 396vh;
 }
 
 .orangebaggrundydelser-mobilto{
@@ -644,7 +645,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 456vh;
+    top: 459vh;
 }
 
 .specifikke{
