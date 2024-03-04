@@ -209,8 +209,8 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 80%;
+  min-height: 80%;
   width: auto;
   height: auto;
   z-index: 0;
@@ -473,10 +473,13 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   text-decoration: none;
+  font-family: "roboto", sans-serif;
+  font-weight: 600;
 }
 .kontakt-visuel-container a:hover {
   cursor: pointer;
-  transform: scale(3);
+  font-size: 22px;
+  padding: 0.7em 1.7em;
   transition: 0.3s ease-in-out;
 }
 
@@ -889,7 +892,9 @@ p {
 .veardi {
   grid-column: 3/4;
   background-color: #F7F1E6;
-  padding: 50px 0 0 30%;
+  padding-top: 60px;
+  padding-left: 30px;
+  line-height: 45px;
 }
 
 /**********---Styling af Kontakt siden---*************/
@@ -920,6 +925,7 @@ p {
 .kontaktinformation {
   width: 45%;
   padding-top: 100px;
+  padding-right: 20px;
 }
 .kontaktinformation h1 {
   padding-bottom: 80px;
@@ -1024,7 +1030,6 @@ main input[type=submit]:hover {
   font-family: "roboto", sans-serif;
   font-size: 20px;
   color: #37476C;
-  padding: 100px;
   white-space: nowrap;
   cursor: pointer;
   list-style: none;
@@ -1066,16 +1071,20 @@ main input[type=submit]:hover {
   height: 475px;
   background-color: #ffffff;
   padding-left: 100px;
-  padding-right: 100px;
   padding-top: 75px;
+}
+.faq-box1 p {
+  padding-right: 100px;
 }
 
 .faq-box2 {
   height: 475px;
   background-color: #F7F1E6;
   padding-left: 100px;
-  padding-right: 100px;
   padding-top: 75px;
+}
+.faq-box2 p {
+  padding-right: 100px;
 }
 
 .faq-bunden {

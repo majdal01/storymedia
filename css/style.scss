@@ -183,8 +183,8 @@ p{
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 80%;
+    min-height: 80%;
     width: auto;
     height: auto;
     z-index: 0;
@@ -478,12 +478,15 @@ p{
             text-transform: uppercase;
             font-size: 20px;
             text-decoration: none;
+            font-family: partial.$font;
+            font-weight: 600;
 
             &:hover{
                 cursor: pointer;
-                transform: scale(3);
+                font-size: 22px;
+                padding: 0.7em 1.7em;
                 transition: 0.3s ease-in-out;
-                  }
+            }
         }
  }
 
@@ -666,6 +669,7 @@ p{
 
 .hvad-er-storytelling{
     display: flex;
+   
 
         article{
             padding: 0 2em 0 6em;
@@ -921,7 +925,9 @@ p{
 .veardi{
     grid-column: 3/4;
     background-color: partial.$primary-color;
-    padding: 50px 0 0 30%;
+    padding-top: 60px;
+    padding-left: 30px;
+    line-height: 45px;
 }
 
 
@@ -959,6 +965,7 @@ p{
 .kontaktinformation{
     width: 45%;
     padding-top: 100px;
+    padding-right: 20px;
         h1{
             padding-bottom: 80px;
         }
@@ -1055,7 +1062,6 @@ main input[type=submit]{
     font-family: "roboto", sans-serif;
     font-size: 20px;
     color: #37476C;
-    padding: 100px;
     white-space: nowrap;
     cursor: pointer;
     list-style: none;
@@ -1097,15 +1103,21 @@ main input[type=submit]{
     height: 475px;
     background-color: partial.$bg-color;
     padding-left: 100px;
-    padding-right: 100px;
     padding-top: 75px;
+
+        p{
+            padding-right: 100px;
+        }
 }
 .faq-box2{
     height: 475px;
     background-color: partial.$primary-color;
     padding-left: 100px;
-    padding-right: 100px;
     padding-top: 75px;
+
+        p{
+            padding-right: 100px;
+        }
 }
 
 .faq-bunden{
