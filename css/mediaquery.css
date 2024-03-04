@@ -397,6 +397,29 @@ p{
     height: auto;
 }
 
+.hero-container .knap{
+    padding: 5px 30px;
+    font-size: 16px;
+}
+
+.knap{
+    padding: 5px 30px;
+    font-size: 16px;
+}
+
+.sog-dropdown{
+    display: block;
+}
+
+.hvorfor-storytelling .knap{
+    padding: 5px 30px;
+    font-size: 16px;
+}
+
+.vispakker-container .kontaktmobil{
+    font-size: 18px;
+}
+
 /********---Footer mobil---******/
 
 footer{
@@ -607,13 +630,15 @@ footer{
     grid-row: 1/2;
     position: relative;
     margin: 0;
-    padding-left: 9em;   
+    padding-left: 3em;
+    padding-right: 0;   
 }
 
 .vispakker-container .vis-to{
     grid-row: 2/3;
     width: 100%;
-    padding-left: 9em;
+    padding-left: 3em;
+    padding-right: 0;
 }
 
 .hjemmesidetekst{
@@ -624,14 +649,16 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 2em;
+
 }
 
 .hjemmesidekasse-container section{
-    height: 645px;
+    height: 750px;
 }
 
 .hjemmesidekasse-container ul{
     padding-left: 4em;
+    
 }
 
 .linjeydelser{
@@ -648,7 +675,8 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 396vh;
+    top: 93vh;
+    left: 0;
 }
 
 .orangebaggrundydelser-mobilto{
@@ -657,14 +685,15 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 459vh;
+    top: 188vh;
+    left: 0;
 }
 
 .specifikke{
     display: flex;
     flex-direction: column-reverse;
-    padding: 3em 3em;
-    width: 450px;
+    padding: 1em 0 2em 1em;
+    width: 100%;
 }
 
 .specifikke article{
@@ -673,7 +702,11 @@ footer{
 
 .spec-img{
     padding-bottom: 2em;
-    width: 100%;
+    width: 90%;
+}
+
+.specifikke ul{
+    padding-left: 1em;
 }
 
 
@@ -726,7 +759,7 @@ footer{
 
 .hvad-er-storytelling{
     flex-direction: column;
-    margin-bottom: 30em;
+    margin: 0 0 30em 0;
 }
 
 .hvad-er-storytelling article{
@@ -734,7 +767,6 @@ footer{
 }
 
 .hvad-er-storytelling .baalsted{
-    display: block;
     height: 90%;
     padding-bottom: 2em;
 }
@@ -919,5 +951,14 @@ main input[type=text], select, textarea {
     height: 100%; 
 }
 
+}
 
+@media screen and (max-width: 350px){
+    h1, h2{
+        font-size: 35px;
+    }
+
+    .hvad-er-storytelling .baalsted{
+        padding-bottom: 15em;
+    }
 }

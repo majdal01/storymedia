@@ -140,6 +140,15 @@ h5{
 
 .dropdown-menu li {
     margin-bottom: 10px;
+
+        img{
+            width: 25px;
+            text-align: right;
+        }
+}
+
+.sog-dropdown{
+    display: none;
 }
 
 .dropdown-menu a{
