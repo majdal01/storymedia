@@ -93,6 +93,10 @@ p{
         }
 }
 
+.video-container{
+    height: 400px;    
+}
+
 .karrusel-box{
     height: 600px;
     margin: 50px 50px 50px 50px;
@@ -518,6 +522,10 @@ footer{
 
         h2{
             padding-bottom: 50px;
+        }
+
+        .video-container{
+            height: 200px;    
         }
 }
 
