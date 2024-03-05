@@ -609,6 +609,15 @@ footer{
 
 /********--Ydelser--*********/
 
+.overlay .yd-streg{
+    width: 90%;
+}
+
+.overlay .yd-streg2{
+    width: 90%;
+}
+
+
 .ydelser-hero-img{
     margin-left: 0;
 }
@@ -683,7 +692,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 93vh;
+    top: 70vh;
     left: 0;
 }
 
@@ -693,7 +702,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 188vh;
+    top: 141vh;
     left: 0;
 }
 
@@ -960,6 +969,10 @@ main input[type=text], select, textarea {
 }
 
 }
+
+
+
+
 
 @media screen and (max-width: 350px){
     h1, h2{
