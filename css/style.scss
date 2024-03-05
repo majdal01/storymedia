@@ -87,7 +87,50 @@ p{
     display: flex;
     width: 100%;
     padding: 8em 9em 0 9em;
+  
 } 
+
+.slideind-venstre {
+    animation: 3s anim-lineup ease-out running;
+  }
+  @keyframes anim-lineup {
+    0% {
+      opacity: 0;
+      transform: translatex(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translatex(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translatex(0%);
+    }
+  }
+
+  .slideind-hojre {
+    animation: 3s anim-lineup2 ease-out running;
+  }
+  @keyframes anim-lineup2 {
+    0% {
+      opacity: 0;
+      transform: translatex(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translatex(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translatex(0%);
+    }
+  }
 
 .hero-tekst h1{
     padding-bottom: 80px;
@@ -158,6 +201,7 @@ p{
         &:hover{
             @include partial.btn-hover;
         }
+        
 }
 
 
