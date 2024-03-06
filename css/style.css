@@ -174,10 +174,10 @@ p {
 }
 .hero-tekst a:hover {
   background-color: transparent;
+  border-radius: 50px;
   border: 3px solid #AD5715;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
   color: black;
+  cursor: pointer;
 }
 
 /*Cheveron*/
@@ -223,10 +223,10 @@ p {
 }
 .knap:hover {
   background-color: transparent;
+  border-radius: 50px;
   border: 3px solid #AD5715;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
   color: black;
+  cursor: pointer;
 }
 
 /*********-- Styling af Forsiden --*********/
