@@ -1061,6 +1061,13 @@ p {
   border: 7px solid #ffffff;
 }
 
+/*foto af os*/
+.fotoafos img {
+  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
 /*Start up + pynt (billede på billede)*/
 .startup-omos {
   position: relative;
