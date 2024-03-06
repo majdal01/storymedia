@@ -347,8 +347,11 @@ p {
   margin-bottom: 100px;
   padding: auto;
 }
+.text-img-section h4 {
+  padding-top: 120px;
+}
 .text-img-section h2 {
-  padding-top: 140px;
+  padding-top: 20px;
 }
 .text-img-section .vi-tilbyder {
   padding-top: 10px;
