@@ -212,7 +212,9 @@ p{
 
 .hvad-er-storytelling{
     height: 500px;
-    
+        article{
+            padding-left: 4em;
+        }
 }
 
 .hvad-er-storytelling .baalsted{
@@ -260,6 +262,20 @@ p{
     width: 100%;
     padding: 0;
     padding-right: 3em;
+}
+
+/*Ny Storytelling*/
+
+.below-box-hojre{
+    padding: 2em 3em 2em 2em;
+}
+
+.below-box{
+    padding: 2em 8em 2em 4em;
+}
+
+.wood-design-box{
+    padding: 1em 2em;
 }
 
 /***************--Om story Media--**************/
