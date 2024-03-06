@@ -722,6 +722,17 @@ p {
   text-align: center;
 }
 
+.roadtosucces2 {
+  text-align: center;
+  padding: 0 9em;
+}
+
+.roadtosucces3 {
+  text-align: center;
+  padding: 1em 9em 0 9em;
+  font-weight: 700;
+}
+
 /********--Styling af Storytelling--*******/
 /* Story tekst billede */
 .hvad-er-storytelling {
