@@ -941,14 +941,15 @@ footer{
             width: 100%;
         }
 
-    .wood-design-box3{
-        width: 100%;
-        padding: 0;
-       
-        img{
-            width: 100%;
-        }
     }
+}
+
+.below-box-hojre .wood-design-box3{
+    width: 100%;
+    padding: 0;
+    
+    img{
+        width: 100%;
     }
 }
 
