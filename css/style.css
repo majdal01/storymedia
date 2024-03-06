@@ -883,6 +883,7 @@ p {
   padding: 0 9em;
 }
 
+/*Venstre styling*/
 .case-wrap-venstre {
   display: flex;
   flex-wrap: wrap;
@@ -893,11 +894,11 @@ p {
   text-align: left;
   background-color: #F7F1E6;
   width: 75%;
-  padding: 2em 13em 2em 6em;
+  padding: 4em 13em 4em 6em;
   margin: 4em 0;
   border: 1px solid #AD5715;
-  display: hidden;
   border-left: none;
+  position: relative;
 }
 
 .tekst-boks {
@@ -905,12 +906,83 @@ p {
 }
 
 .bill-boks-venstre {
-  width: 30%;
+  width: 40%;
   height: auto;
   position: absolute;
   aspect-ratio: 1/1;
-  right: 8%;
-  top: 248%;
+  right: -23%;
+  top: 16%;
+}
+
+.bill-boks-venstre3 {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  aspect-ratio: 1/1;
+  right: -23%;
+  top: 12%;
+}
+
+/*Højre styling*/
+.case-wrap-hojre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.below-box-hojre {
+  text-align: left;
+  background-color: #F7F1E6;
+  width: 75%;
+  padding: 4em 4em 4em 6em;
+  border: 1px solid #AD5715;
+  border-right: none;
+  position: relative;
+}
+
+.tekst-boks-hojre {
+  padding-left: 9em;
+}
+
+.wood-design-box {
+  position: absolute;
+  border: 1px solid black;
+  padding: 2em 4em;
+  left: -20%;
+  background-color: white;
+  top: 4%;
+}
+.wood-design-box img {
+  width: 43%;
+}
+
+.wood-design-box2 {
+  position: absolute;
+  border: 1px solid black;
+  padding: 2em 4em;
+  left: -20%;
+  background-color: white;
+  top: 4%;
+  width: 40%;
+}
+.wood-design-box2 img {
+  width: 100%;
+}
+
+.wood-design-box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  border: 1px solid black;
+  padding: 2em 4em;
+  left: -20%;
+  background-color: white;
+  top: 10%;
+  width: 40%;
+}
+.wood-design-box3 img {
+  width: 70%;
 }
 
 /**********--- Styling af Om Sotry Media siden---*******/
