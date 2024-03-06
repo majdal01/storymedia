@@ -162,6 +162,24 @@ p{
 
     /********--Branding Proces--******/
 
+.overlay{
+
+    .bp-streg{
+        top: -4em;
+    }
+
+    .bp-streg1{
+        top: -9em;
+    }
+
+    .bp-streg2{
+        top: -7em;
+    }
+
+    .bp-streg3{
+        top: -5em;
+    }
+}
 
 .BGbranding{
     background-image: url(../img/BG-road-tablet.png);
@@ -609,6 +627,15 @@ footer{
 
 /********--Ydelser--*********/
 
+.overlay .yd-streg{
+    width: 90%;
+}
+
+.overlay .yd-streg2{
+    width: 90%;
+}
+
+
 .ydelser-hero-img{
     margin-left: 0;
 }
@@ -683,7 +710,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 93vh;
+    top: 70vh;
     left: 0;
 }
 
@@ -693,7 +720,7 @@ footer{
     height: 42.2vh;
     position: absolute;
     z-index: -2;
-    top: 188vh;
+    top: 141vh;
     left: 0;
 }
 
@@ -719,6 +746,28 @@ footer{
 
 
 /*******---Branding proces--*******/
+
+.overlay {
+    .bp-streg{
+        width: 100%;
+    }
+
+    .bp-streg1{
+        width: 100%;
+        top: -8em;
+    }
+
+    .bp-streg2{
+        width: 100%;
+        top: -7em;
+    }
+
+    .bp-streg3{
+        width: 50%;
+        top: -5em;
+        left: 35%;
+    }
+}
 
 .BGbranding{
     background-image: url('../img/Road-mobil.png');
@@ -960,6 +1009,10 @@ main input[type=text], select, textarea {
 }
 
 }
+
+
+
+
 
 @media screen and (max-width: 350px){
     h1, h2{

@@ -418,6 +418,22 @@ p{
 
  /*Hovedindhold*/
 
+.overlay { 
+
+    .yd-streg2{
+    width: 40%;
+    top: 40em;
+    left: 60%;
+    z-index: -1;
+    }
+
+    .yd-streg{
+    width: 60%;
+    top: -5em;
+    z-index: -1;
+}
+ }
+
  .stark-container{
     display: flex;
     align-self: center;
@@ -628,6 +644,44 @@ p{
 /*********--Styling af Branding proces--***********/
 
 /* Branding hovedområde */
+
+.overlay{
+
+    .bp-streg{
+        width: 60%;
+        z-index: -1;
+        top: -5em;
+    }
+
+    .bp-streg1{
+        width: 55%;
+        top: -14em;
+        z-index: -1;
+        left: 24%;
+    }
+    
+    .bp-streg2{
+        width: 50%;
+        top: -11em;
+        z-index: -1;
+        left: 25%;
+    }
+
+    .bp-streg3{
+        width: 30%;
+        top: -9em;
+        z-index: -1;
+        left: 25%;
+    }
+
+    .bp-streg4{
+        width: 90%;
+        top: -11em;
+        z-index: -1;
+        left: 25%;
+    }
+}
+
 .branding-container-venstre{
     display: grid;
     width: 75%;
