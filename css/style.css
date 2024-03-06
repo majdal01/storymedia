@@ -347,11 +347,8 @@ p {
   margin-bottom: 100px;
   padding: auto;
 }
-.text-img-section h4 {
-  padding-top: 120px;
-}
 .text-img-section h2 {
-  padding-top: 20px;
+  padding-top: 140px;
 }
 .text-img-section .vi-tilbyder {
   padding-top: 10px;
@@ -917,15 +914,6 @@ p {
   top: 16%;
 }
 
-.bill-boks-venstre3 {
-  width: 40%;
-  height: auto;
-  position: absolute;
-  aspect-ratio: 1/1;
-  right: -23%;
-  top: 12%;
-}
-
 /*Højre styling*/
 .case-wrap-hojre {
   display: flex;
@@ -1059,13 +1047,6 @@ p {
   background-color: #F7F1E6;
   padding: 50px 50px 50px 50px;
   border: 7px solid #ffffff;
-}
-
-/*foto af os*/
-.fotoafos img {
-  padding-top: 50px;
-  display: block;
-  margin: 0 auto;
 }
 
 /*Start up + pynt (billede på billede)*/

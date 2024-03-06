@@ -876,6 +876,82 @@ footer{
     align-self: center;
 }
 
+/*Ny Storytelling*/
+
+.caseny p{
+    padding: 2em;
+}
+
+.case-wrap-venstre .below-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 1em 0;
+    padding: 2em;
+    width: 85%;
+
+    .bill-boks-venstre{
+        width: 100%;
+        height: auto;
+        position:relative;
+        aspect-ratio: 1/1;
+        right: 0;
+        top: 0;
+        order: 2;
+    }
+}
+
+.case-wrap-hojre .below-box-hojre{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 1em 0;
+    padding: 2em;
+    width: 85%;
+
+    .wood-design-box, .wood-design-box2, .wood-design-box3{
+        position: relative;
+        padding: 1.5em 2.5em;
+        left: 0%;
+        top: 0;
+        order: 2;
+            img{
+                width: 43%;
+            }
+             }
+
+    .bill-boks-hojre{
+        width: 100%;
+        height: auto;
+        position:relative;
+        aspect-ratio: 1/1;
+        right: 0;
+        top: 0;
+        order: 2;
+    }
+
+    .tekst-boks-hojre{
+        padding-left: 1em; 
+    }
+
+    .wood-design-box2{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+        }
+
+    .wood-design-box3{
+        width: 100%;
+        padding: 0;
+       
+        img{
+            width: 100%;
+        }
+    }
+    }
+}
+
 
 /***************--Om story Media--**************/
 .img-os{

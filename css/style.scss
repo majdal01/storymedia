@@ -331,12 +331,8 @@ p{
     margin-bottom: 100px;
     padding: auto;
 
-        h4{
-            padding-top: 120px;
-        }
-
         h2{
-            padding-top: 20px;
+            padding-top: 140px;
         }
 
         .vi-tilbyder{
@@ -359,7 +355,8 @@ p{
 }
 
 .content-txt2{
-    grid-column: 3/6;    
+    grid-column: 3/6;
+    
 }
 
 .content-foto2{
@@ -966,15 +963,6 @@ p{
     top: 16%;
 }
 
-.bill-boks-venstre3{
-    width: 40%;
-    height: auto;
-    position: absolute;
-    aspect-ratio: 1/1;
-    right: -23%;
-    top: 12%;
-}
-
 /*Højre styling*/
 
 .case-wrap-hojre{
@@ -1116,13 +1104,6 @@ p{
         padding: 50px 50px 50px 50px ;
         border: 7px solid partial.$bg-color;
     }
-}
-
-/*foto af os*/
-.fotoafos img{
-    padding-top: 50px;
-    display: block;
-    margin: 0 auto;
 }
 
 /*Start up + pynt (billede på billede)*/
