@@ -916,6 +916,51 @@ p{
     padding: 3em 3em 0 3em;
 }
 
+/*Ny Storytelling*/
+
+.caseny{
+    text-align: center;
+    border-top: 3px solid partial.$secondary-color;
+    margin-top: 3em;
+    padding-top: 3em;
+
+        p{
+            padding: 0 9em;
+        }
+}
+
+.case-wrap-venstre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+
+.below-box{
+    text-align: left;
+    background-color: partial.$primary-color;
+    width: 75%;
+    padding: 2em 13em 2em 6em;
+    margin: 4em 0;
+    border: 1px solid partial.$secondary-color;
+    display: hidden;
+    border-left: none;
+}
+
+.tekst-boks{
+    padding-right: 9em;
+    
+}
+
+.bill-boks-venstre{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    aspect-ratio: 1/1;
+    right: 8%;
+    top: 248%;
+}
+
 
 /**********--- Styling af Om Sotry Media siden---*******/
 
