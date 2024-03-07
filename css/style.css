@@ -347,8 +347,11 @@ p {
   margin-bottom: 100px;
   padding: auto;
 }
+.text-img-section h4 {
+  padding-top: 120px;
+}
 .text-img-section h2 {
-  padding-top: 140px;
+  padding-top: 20px;
 }
 .text-img-section .vi-tilbyder {
   padding-top: 10px;
@@ -1047,6 +1050,14 @@ p {
   background-color: #F7F1E6;
   padding: 50px 50px 50px 50px;
   border: 7px solid #ffffff;
+}
+
+.fotoafos {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Start up + pynt (billede på billede)*/
