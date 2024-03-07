@@ -207,6 +207,10 @@ p{
     padding: 0 4em 0 3em ;
 }
 
+.roadtosucces2{
+    padding: 1em 2em;
+}
+
 
 /************--Storytelling--**********/
 
@@ -1118,5 +1122,9 @@ main input[type=text], select, textarea {
 
     .hvad-er-storytelling .baalsted{
         padding-bottom: 15em;
+    }
+
+    .roadtosucces3{
+        padding: 0;
     }
 }
