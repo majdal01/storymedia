@@ -548,14 +548,18 @@ footer{
     height: auto;
     width: auto;
 
+        .forh1{
+            padding-top: 20px;
+        }
+
         h2{
-            padding-top: 50px;
+            padding-top: 10px;
         }
 }
 
 .content-txt{
     order: 2;
-    height: 500px;
+    height: 600px;
 }
 
 .content-foto{
@@ -917,6 +921,10 @@ footer{
 
         .forh1{
             font-size: 18px;
+        }
+
+        a{
+            display: none;
         }
 }
 
