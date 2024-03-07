@@ -231,45 +231,6 @@ p{
     margin-top: 12em;
 }
 
-.case{
-    padding: 4em;
-}
-
-.case-wrapper{
-    padding-bottom: 0;
-}
-
-.case-wrapper .tekst-venstre{
-    padding: 2em 3em 2em 4em;
-}
-
-.case-wrapper .tekst-hojre{
-    padding: 3em 3.5em 2em 2em;
-}
-
-.case-wrapper .billede-venstre{
-    width: 100%;
-}
-
-.case-wrapper .illu-grid{
-    padding: 2em 3em 2em 2em;
-    
-}
-
-.case-wrapper .woodfarve .finger-tablet{
-    width: 100%;
-    padding: 0;
-    padding-right: 2em;
-}
-
-.case-wrapper .woodfarve .woodmood{
-    width: 100%;
-    padding: 0;
-    padding-right: 3em;
-}
-
-/*Ny Storytelling*/
-
 .below-box-hojre{
     padding: 2em 3em 2em 2em;
 }
@@ -856,48 +817,6 @@ footer{
 .hvorfor-storytelling .hvorfor-story-knap{
     padding: 0.7em 2em;
 }
-
-.case{
-    padding: 3em;
-}
-
-.case-wrapper{
-    display: flex;
-    flex-direction: column;
-}
-
-.case-wrapper .tekst-venstre{
-    padding: 3em;
-}
-
-.case-wrapper .tekst-hojre{
-    padding: 3em;
-}
-
-.case-wrapper .bogetrae{
-    padding-left: 0;
-}
-
-.case-wrapper .bark-img-mobil{
-    order: 2;
-}
-
-.case-wrapper .woodfarve{
-    width: 100%;
-    padding: 2em 0;
-}
-
-.case-wrapper .woodfarve .woodmood{
-    width: 50%;
-    align-self: center;
-}
-
-.case-wrapper .woodfarve .finger-mobil{
-    width: 50%;
-    align-self: center;
-}
-
-/*Ny Storytelling*/
 
 .caseny p{
     padding: 2em;
