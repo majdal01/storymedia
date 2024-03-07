@@ -781,101 +781,6 @@ p {
   font-weight: 400;
 }
 
-.case {
-  background-color: #F7F1E6;
-  margin: 4em 0 0 0;
-  padding: 3em 6em 0 6em;
-  border: 7px solid #AD5715;
-  border-bottom: none;
-}
-
-.case-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 3em;
-}
-.case-wrapper .tekst-venstre {
-  grid-column: 1/3;
-  padding: 4em 2em 4em 6em;
-}
-.case-wrapper .billede-hojre {
-  grid-column: 3/4;
-  width: 100%;
-  height: auto;
-  justify-self: end;
-  align-self: center;
-  padding: 3em 0 3em 2em;
-}
-.case-wrapper .billede-venstre {
-  grid-column: 1/2;
-  display: grid;
-  grid-column: auto;
-  width: 80%;
-  height: auto;
-  align-self: center;
-  padding: 2em 0;
-}
-.case-wrapper .tekst-hojre {
-  grid-column: 2/4;
-  padding: 4em 6em 0 0em;
-}
-
-.wooddesignoverskrift {
-  font-size: 30px;
-  font-weight: 400;
-  padding-bottom: 20px;
-}
-
-.beigekasse {
-  background-color: #F7F1E6;
-}
-
-.beigeborder {
-  border: 7px solid #F7F1E6;
-  border-right: none;
-  border-left: none;
-}
-
-.grid-justering {
-  padding: 4em 4em 3em 6em;
-}
-
-.illu-grid {
-  justify-self: center;
-}
-
-.woodfarve {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.woodfarve img:nth-of-type(1) {
-  width: 60%;
-  padding: 3em 0em 0em 4em;
-}
-.woodfarve img:nth-of-type(2) {
-  width: 60%;
-  padding: 0em 0em 3em 4em;
-}
-
-.fingertekst {
-  padding: 2em 0;
-  text-align: center;
-}
-
-.nysgerrigstory {
-  text-align: center;
-}
-
-.case-wrapper .woodfarve {
-  padding: 0 2em 0 3em;
-}
-
-.nysgerrigstory {
-  padding: 5em 3em 0 3em;
-}
-
-/*Ny Storytelling*/
 .caseny {
   text-align: center;
   border-top: 3px solid #AD5715;
@@ -887,6 +792,12 @@ p {
 }
 
 /*Venstre styling*/
+.wooddesignoverskrift {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
 .case-wrap-venstre {
   display: flex;
   flex-wrap: wrap;
@@ -977,6 +888,16 @@ p {
 }
 .wood-design-box3 img {
   width: 70%;
+}
+
+.fingertekst {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.nysgerrigstory {
+  text-align: center;
+  padding: 5em 3em 0 3em;
 }
 
 /**********--- Styling af Om Sotry Media siden---*******/

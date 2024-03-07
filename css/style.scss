@@ -819,108 +819,6 @@ p{
         }
 }
 
-.case{
-    background-color: partial.$primary-color;
-    margin: 4em 0 0 0;
-    padding: 3em 6em 0 6em;
-    border: 7px solid partial.$secondary-color;
-    border-bottom: none;
-}
-
-.case-wrapper{
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    margin-bottom: 3em;
-
-        .tekst-venstre{
-            grid-column: 1/3;
-            padding: 4em 2em 4em 6em;
-        }
-
-        .billede-hojre{
-            grid-column: 3/4;
-            width: 100%;
-            height: auto;
-            justify-self: end;
-            align-self: center;
-            padding: 3em 0 3em 2em;
-        }
-
-        .billede-venstre{
-            grid-column: 1/2;
-            display: grid;
-            grid-column: auto;
-            width: 80%;
-            height: auto;
-            align-self: center;
-            padding: 2em 0;
-        }
-
-        .tekst-hojre{
-            grid-column: 2/4;
-            padding: 4em 6em 0 0em;
-        }
-}
-
-
-.wooddesignoverskrift{
-    font-size: 30px;
-    font-weight: 400;
-    padding-bottom: 20px;
-}
-
-.beigekasse{
-    background-color: partial.$primary-color;
-}
-
-.beigeborder{
-    border: 7px solid partial.$primary-color;
-    border-right: none;
-    border-left: none;
-}
-
-.grid-justering{
-    padding: 4em 4em 3em 6em;
-}
-
-.illu-grid{
-    justify-self: center;
-}
-
-.woodfarve{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-        img:nth-of-type(1){
-            width: 60%;
-            padding: 3em 0em 0em 4em;
-        }
-
-        img:nth-of-type(2){
-            width: 60%;
-            padding: 0em 0em 3em 4em;
-         }
-}
-
-.fingertekst{
-    padding: 2em 0;
-    text-align: center;
-}
-
-.nysgerrigstory{
-    text-align: center;
-}
-
-.case-wrapper .woodfarve{
-    padding: 0 2em 0 3em;
-}
-
-.nysgerrigstory{
-    padding: 5em 3em 0 3em;
-}
-
-/*Ny Storytelling*/
 
 .caseny{
     text-align: center;
@@ -934,6 +832,12 @@ p{
 }
 
 /*Venstre styling*/
+
+.wooddesignoverskrift{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
 
 .case-wrap-venstre{
     display: flex;
@@ -1032,7 +936,15 @@ p{
         }
 }
 
+.fingertekst{
+    padding: 2em 0;
+    text-align: center;
+}
 
+.nysgerrigstory{
+    text-align: center;
+    padding: 5em 3em 0 3em;
+}
 
 
 /**********--- Styling af Om Sotry Media siden---*******/
