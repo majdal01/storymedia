@@ -28,7 +28,7 @@ h3 {
   padding-bottom: 20px;
 }
 
-h4 {
+.forh1, h4 {
   font-family: "roboto", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
@@ -347,7 +347,7 @@ p {
   margin-bottom: 100px;
   padding: auto;
 }
-.text-img-section h4 {
+.text-img-section .forh1 {
   padding-top: 120px;
 }
 .text-img-section h2 {
@@ -359,6 +359,7 @@ p {
 
 .content-txt {
   grid-column: 1/4;
+  padding: 0 2em 0 2em;
 }
 
 .content-foto {
@@ -373,6 +374,7 @@ p {
 
 .content-txt2 {
   grid-column: 3/6;
+  padding: 0 2em 0 2em;
 }
 
 .content-foto2 {
