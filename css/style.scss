@@ -971,6 +971,22 @@ p{
             height: 360px;
             width: 290px;
         }
+
+        a{
+            color: partial.$text-color;
+            text-decoration: none;
+            font-family: partial.$font;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+        
+                &:hover{
+                    border: none;
+                    font-weight: 800;
+                    color: black;
+                    cursor: pointer;
+                }
+        }
 }
 
 .overlay{
