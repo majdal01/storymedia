@@ -1,0 +1,1058 @@
+
+
+/*********--Tablet--*********/
+
+@media screen and (max-width: 900px){
+
+/*Globale variabler*/
+
+h1, h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*globalt*/
+
+
+.header2{
+    position: fixed;
+    left: 93%;
+}
+
+.menu{
+    font-size: 40px;
+}
+
+.brodkromme{
+    font-size: 22px;
+    right: 10%;
+    top: 100%;
+ }
+
+.hero-container{
+    padding: 4em 3em 6em 3em;
+}
+
+.hero-tekst h1{
+    padding-bottom: 1em;
+}
+
+.hero-tekst .knap{
+    font-size: 18px;
+    padding: 13.5px 4em;
+}
+
+.knap{
+    font-size: 18px;
+    padding: 13.5px 4em;
+}
+
+.hero-gap-til-knap{
+    padding-bottom: 3em;
+}
+
+.chevron-container{
+    display: none;
+}
+
+.footergrid{
+    grid-template-columns: 50px 180px 1fr 200px 50px;
+}
+
+.chatfunktion{
+    left: 88%;
+}
+
+.chatfunktion img{
+    width: 70px;
+    height: auto;
+}
+
+/**********--forside--*********/
+.hero-content{
+    padding: 0 30px 0 30px;
+}
+
+.intro{
+
+    background-size: 120%;
+
+        h2, h3, p{
+            margin-right: 50px;
+        }
+}
+
+.video-container{
+    height: 400px;    
+}
+
+.karrusel-box{
+    height: 600px;
+    margin: 50px 50px 50px 50px;
+
+    h3{
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .karrusel{
+        
+        .slider{
+                width: 100%;
+                padding: 0 20px 0 20px;
+                margin-left: 60px;
+                }
+    } 
+}
+
+/********--Ydelser--**********/
+
+.stark-container{
+   margin: 2em 2em;
+   gap: 1.7em;
+}
+
+.stark-container img{
+    margin-top: 1em;
+    width: 40%;
+    height: auto;
+}
+
+.stark-container article{
+    padding-right: 3em;
+}
+
+.vispakker-container .vis-et {
+    padding: 4em 6em;
+}
+
+.vispakker-container .vis-to{
+    padding: 4em 4em 0 10em;
+}
+
+.specifikke {
+    width: 900px;
+    padding: 2em 3em;
+}
+
+.spec-img{
+    width: 50%;
+    height: auto;
+}
+
+.specifikke p{
+    padding-bottom: 0.5em;
+}
+
+.knap-tablet{
+        padding: 13.5px 2em;
+    }
+
+
+    /********--Branding Proces--******/
+
+.overlay{
+
+    .bp-streg{
+        top: -4em;
+    }
+
+    .bp-streg1{
+        top: -9em;
+    }
+
+    .bp-streg2{
+        top: -7em;
+    }
+
+    .bp-streg3{
+        top: -5em;
+    }
+}
+
+.BGbranding{
+    background-image: url(../img/BG-road-tablet.png);
+    background-size: conver;
+    width: 100%;
+}
+
+.brandingroad{
+    background-image: url(../img/Road.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0px 22em;
+    width: 100%;
+}
+
+.branding-container-venstre, .branding-container-hojre{
+    margin-bottom: 5em;
+}
+
+.branding-container-venstre section{
+    padding: 0 2em 0 4em ;
+}
+
+.branding-container-hojre section{
+    padding: 0 4em 0 3em ;
+}
+
+.roadtosucces2{
+    padding: 1em 2em;
+}
+
+
+/************--Storytelling--**********/
+
+.hvad-er-storytelling{
+    height: 500px;
+        article{
+            padding-left: 4em;
+        }
+}
+
+.hvad-er-storytelling .baalsted{
+    height: 60%;
+    align-self: center;
+}
+
+.hvorfor-storytelling{
+    padding: 4em;
+    margin-top: 12em;
+}
+
+.below-box-hojre{
+    padding: 2em 3em 2em 2em;
+}
+
+.below-box{
+    padding: 2em 8em 2em 4em;
+}
+
+.wood-design-box{
+    padding: 1em 2em;
+}
+
+/***************--Om story Media--**************/
+
+.info-os{
+    margin-top: 50px;
+}
+
+.iveark-os-txt{
+    padding: 50px 50px 0 50px;
+}
+
+.special img{
+    width: 90%;
+    text-align: center;
+}
+
+.beige-box{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.startup-omos{
+    text-align: center;
+    padding: 40px 0 0 0;
+    margin: 60px 0 0 0;
+}
+
+.omos-logo-txt img{
+    padding-bottom: 25px;
+}
+
+.startup-os-img {
+    left: 25%;  
+  }
+
+  .veardi{
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+/*************--Kontakt-side--***************/
+
+.kontaktform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.kontaktinformation{
+    width: 100%;
+    text-align: center;
+    padding: 0 70px 0 70px;
+    padding-bottom: 70px;
+        h1{
+            padding-bottom: 50px;
+        }
+}
+
+.kontaktformular{
+    border-radius: 20px;
+    margin: 0;
+}
+
+/**************--FAQ-side--**************/
+.BGandre{
+    background-image: url('../img/BGtop.png');
+    width: 100%;
+    height: auto;
+}
+
+.dropdown-box{
+    width: 400px;
+}
+
+.faq-box1, .faq-box2{
+    height: 500px;
+}
+
+}
+
+/*----------------------------------------------------*/
+/*********************--Mobil--************************/
+
+
+
+@media screen and (max-width: 450px){
+
+/*Globale varianter*/
+
+    h1, h2{
+        font-size: 38px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+
+/*globalt*/
+
+.header2{
+    position: fixed;
+    left: 92%;
+    top: 5%;
+}
+
+.menu{
+    font-size: 25px;
+}
+
+.brodkromme{
+    font-size: 18px;
+    right: 1%;
+    top: 100%;
+ }
+
+.kontaktikon, .sog, .sogefelt{
+    display: none;
+}
+
+.hero-container{
+    padding: 4em 3em;
+    flex-direction: column;
+}
+
+.hero-img-mobil img{
+    margin-right: 6em;
+    margin-top: 4em;
+}
+
+.hero-img{
+    justify-content: center;
+    width: 120%;
+    margin: 2em 1em;
+}
+
+.chatfunktion{
+    left: 80%;
+}
+
+.chatfunktion img{
+    width: 50px;
+    height: auto;
+}
+
+.hero-container .knap{
+    padding: 5px 30px;
+    font-size: 16px;
+}
+
+.knap{
+    padding: 5px 30px;
+    font-size: 16px;
+}
+
+.sog-dropdown{
+    display: block;
+}
+
+.hvorfor-storytelling .knap{
+    padding: 5px 30px;
+    font-size: 16px;
+}
+
+.vispakker-container .kontaktmobil{
+    font-size: 18px;
+}
+
+/********---Footer mobil---******/
+
+footer{
+    display: none;
+}
+
+.footer-mobil{
+    display: block;
+}
+
+.footer-tablet-desktop{
+    display: none;
+}
+
+.footer-mobil{
+    background-color: #F7F1E6;
+    width: 100%;
+}
+
+.footer-logo-placering{
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.footer-mobil-logo{
+    width: 40%;
+}
+
+.footer-nav-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footernav{
+    grid-column: 1/2;
+    margin-left: 2em;
+}
+
+.someplacering{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-right: 2em;
+}
+
+.footerform{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-mobil input[type=submit]{
+    display: flex;
+   justify-content: center;
+}
+
+.copy{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 1em 0;
+}
+
+.footer-kontakt{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2em 2em;
+}
+
+.telefonikon-footer{
+    height: 16px;
+    width: 16px;
+}
+
+.mailikon, .telefonikon-footer{
+    padding-left: 0.2em;
+}
+
+/*******---forside--**********/
+
+.hero-section video{
+    margin-bottom: 0;
+    width: 100%;
+}
+.hero-content{
+    padding: 0 30px 0 30px;
+}
+
+.brandingvideo{
+        h4{
+            padding-top: 50px;
+            padding-bottom: 4%;
+        }
+
+        h2{
+            padding-bottom: 50px;
+        }
+
+        .video-container{
+            height: 200px;    
+        }
+}
+
+.intro{
+    background-size: 60%;
+    margin: 40px 40px 40px 40px;
+
+        h2, h3, p{
+            margin:0;
+            padding: 10px 0 10px 0;
+        }
+
+        li{
+            font-size: 18px;
+        }
+}
+
+.text-img-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+
+        h2{
+            padding-top: 50px;
+        }
+}
+
+.content-txt{
+    order: 2;
+    height: 500px;
+}
+
+.content-foto{
+    order: 1;
+
+    img{
+        height: 500px;
+    }
+}
+
+.content-txt2{
+    order: 2;
+    height: 600px;
+}
+
+.content-foto2{
+    order: 1;
+
+        img{
+            height: 500px;
+        }
+}
+
+.logo-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+
+
+.karrusel-box{
+    height: 400px;
+    width: auto;
+    margin: 30px 20px 30px 20px;
+
+    h3{
+        padding: 20px;
+    }
+    
+    .karrusel{
+
+            .slider img{
+                width: 200px;
+                height: auto;
+            }
+    } 
+}
+
+/********--Ydelser--*********/
+
+.overlay .yd-streg{
+    width: 90%;
+}
+
+.overlay .yd-streg2{
+    width: 90%;
+}
+
+
+.ydelser-hero-img{
+    margin-left: 0;
+}
+
+.ydelser-hero-img img{
+    margin: 2em 3em 0 0;
+    width: 90%;
+}
+
+.stark-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.stark-container .stark-img{
+    width: 100%;
+    order: 2;
+}
+
+.vispakker-container{
+    display: grid;
+    margin-bottom: 0;
+}
+
+.vispakker-container .vis-et{
+    grid-row: 1/2;
+    position: relative;
+    margin: 0;
+    padding-left: 3em;
+    padding-right: 0;   
+}
+
+.vispakker-container .vis-to{
+    grid-row: 2/3;
+    width: 100%;
+    padding-left: 3em;
+    padding-right: 0;
+}
+
+.hjemmesidetekst{
+    padding: 0 2em 2em 2em;
+}
+
+.hjemmesidekasse-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.hjemmesidekasse-container section{
+    height: 750px;
+}
+
+.hjemmesidekasse-container ul{
+    padding-left: 4em;
+    
+}
+
+.linjeydelser{
+    margin: 1em 0 2em 0;
+}
+
+.orangebaggrundydelser{
+    height: 42.2vh;
+}
+
+.orangebaggrundydelser-mobilet{
+    background-color:#AD5715;
+    width: 100%;
+    height: 42.2vh;
+    position: absolute;
+    z-index: -2;
+    top: 70vh;
+    left: 0;
+}
+
+.orangebaggrundydelser-mobilto{
+    background-color:#AD5715;
+    width: 100%;
+    height: 42.2vh;
+    position: absolute;
+    z-index: -2;
+    top: 141vh;
+    left: 0;
+}
+
+.specifikke{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1em 0 2em 1em;
+    width: 100%;
+}
+
+.specifikke article{
+    padding: 0 1em;
+}
+
+.spec-img{
+    padding-bottom: 2em;
+    padding-left: 1em;
+    width: 90%;
+}
+
+.specifikke ul{
+    padding-left: 1em;
+}
+
+
+/*******---Branding proces--*******/
+
+.overlay {
+    .bp-streg{
+        width: 100%;
+    }
+
+    .bp-streg1{
+        width: 100%;
+        top: -8em;
+    }
+
+    .bp-streg2{
+        width: 100%;
+        top: -7em;
+    }
+
+    .bp-streg3{
+        width: 50%;
+        top: -5em;
+        left: 35%;
+    }
+}
+
+.BGbranding{
+    background-image: url('../img/Road-mobil.png');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.branding-container-venstre{
+    display: flex;
+    flex-direction: column;
+}
+
+.branding-container-venstre section{
+    border-radius: 0 50px 0 0;
+    border-left: none;
+    padding: 2em 2em 2em 3em;
+}
+
+.branding-container-hojre{
+    display: flex;
+    flex-direction: column;
+}
+
+.branding-container-hojre section{
+    border-right: none;
+    border-radius: 50px 0 0 0;
+    padding: 2em 3em 2em 2em;
+}
+
+.branding-img-bokse-venstre img{
+    border-radius: 0 0 45px 0;
+}
+
+.branding-img-bokse-hojre img{
+    border-radius: 0 0 0 45px;
+}
+
+/*********--Storytelling--**********/
+
+.overlay .storystreg2{
+    width: 100%;
+}
+
+.overlay .streg3{
+    width: 70%;
+}
+
+.hero-story-mobil-img{
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.hvad-er-storytelling{
+    flex-direction: column;
+    margin: 0 0 30em 0;
+}
+
+.hvad-er-storytelling article{
+    padding: 0 3em;
+}
+
+.hvad-er-storytelling .baalsted{
+    height: 90%;
+    padding-bottom: 2em;
+}
+
+.hvorfor-storytelling{
+    padding: 3em;
+}
+
+.hvorfor-storytelling .hvorfor-story-knap{
+    padding: 0.7em 2em;
+}
+
+.caseny p{
+    padding: 2em;
+}
+
+.case-wrap-venstre .below-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 1em 0;
+    padding: 2em;
+    width: 85%;
+
+    .bill-boks-venstre{
+        width: 100%;
+        height: auto;
+        position:relative;
+        aspect-ratio: 1/1;
+        right: 0;
+        top: 0;
+        order: 2;
+    }
+}
+
+.case-wrap-hojre .below-box-hojre{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 1em 0;
+    padding: 2em;
+    width: 85%;
+
+    .wood-design-box, .wood-design-box2, .wood-design-box3{
+        position: relative;
+        padding: 1.5em 2.5em;
+        left: 0%;
+        top: 0;
+        order: 2;
+            img{
+                width: 43%;
+            }
+             }
+
+    .bill-boks-hojre{
+        width: 100%;
+        height: auto;
+        position:relative;
+        aspect-ratio: 1/1;
+        right: 0;
+        top: 0;
+        order: 2;
+    }
+
+    .tekst-boks-hojre{
+        padding-left: 1em; 
+    }
+
+    .wood-design-box2{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+        }
+
+    }
+}
+
+.below-box-hojre .wood-design-box3{
+    width: 100%;
+    padding: 0;
+    
+    img{
+        width: 100%;
+    }
+}
+
+
+/***************--Om story Media--**************/
+.img-os{
+    margin-top: 100px;
+
+        img{
+            height: 180px;
+            width: 145px;
+        }
+
+        h2{
+            font-size: 30px;
+        }
+}
+
+.info-os{
+    margin-top: 30px;
+    padding: 30px;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.iveark-os{
+    display: flex;
+    flex-direction: column;
+
+        img{
+            height: 500px;
+        }
+}
+
+.iveark-os-txt{
+    border: 7px solid #F7F1E6;
+    height: 100%;
+}
+
+.beige-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+
+    .beige-box1, .beige-box2{
+        width: 80%;
+        padding: 10px 10px 10px 10px ;
+    }
+
+    .beige-box2{
+        align-self: flex-end;
+    }
+}
+
+.fotoafos img{
+    width: 100%;
+}
+
+.startup-omos{
+    padding: 150px 0 0 0;
+  }
+  
+  .startup-os-img {
+    width: 90%;
+    top: 10%; 
+    left: 5%;  
+  }
+
+.omos-sektion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.omos-logo-txt{
+    padding: 30px 30px 30px 30px;
+
+        img{
+            width: 300px;
+        }
+}
+
+.veardi{
+    padding-left: 70px;
+    padding-bottom: 70px;
+    line-height: 1cm;
+}
+
+
+/*************--Kontakt-side--***************/
+.text p, .text a{
+    font-size: 16px;
+}
+
+.kontaktform{
+    margin: 0 1em 0 1em;
+}
+
+.kontaktformular{
+    height: auto;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 40px 20px 40px 20px;
+}
+
+main input[type=text], select, textarea {
+	padding: 6.5em;
+	margin-bottom: 1em;
+}
+
+.kontaktformular input[type=submit]{
+    width: 70%;
+    font-size: 16px;
+    padding: 13.5px 4em;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+/**************--FAQ-side--**************/
+.faq-dropdown{
+    display: none;
+}
+
+
+.faq-box1, .faq-box2{
+    margin: 0;
+    padding: 20px 10px 10px 20px;
+    height: 100%; 
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 350px){
+    h1, h2{
+        font-size: 35px;
+    }
+
+    .hvad-er-storytelling .baalsted{
+        padding-bottom: 15em;
+    }
+
+    .roadtosucces3{
+        padding: 0;
+    }
+}
