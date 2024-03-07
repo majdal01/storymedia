@@ -752,11 +752,12 @@ footer{
 }
 
 .specifikke article{
-    padding: 0;
+    padding: 0 1em;
 }
 
 .spec-img{
     padding-bottom: 2em;
+    padding-left: 1em;
     width: 90%;
 }
 
